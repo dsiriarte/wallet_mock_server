@@ -1,0 +1,79 @@
+{
+  "id": 1,
+  "firstName": "John",
+  "middleName": "",
+  "lastName": "Doe",
+  "fullName": "John Doe",
+  "number": "1234",
+  "email": "Doe@mail.com",
+  "accountId": 6,
+  "employer": {
+    "id": 123,
+    "name": "Sample employer",
+    "logoUrl": "http://i.imgur.com/U8atCPi.png"
+  },
+  "messages": [
+    {
+      "description": "Submit your credentials",
+      "workplaceName": "Pudre Valley Hospital",
+      "workplaceLogoURL": "file:///android_asset/facility_1.png",
+      "status": "credential",
+      "taskOwner": "credentials",
+      "requirements": [
+        {
+          "boardId": 17,
+          "name": "Oregon State Board of Nursing",
+          "status": "verifying",
+          "professions": [
+            {
+              "professionId": 39,
+              "professionName": "Nurse Practitioner",
+              "status": "verifying",
+              "type": "LICENSE",
+              "requirementId": 1706,
+              "isTBO": false,
+              "tboDays": null
+            },
+            {
+              "professionId": 36,
+              "professionName": "Registered Nurse",
+              "status": "verifying",
+              "type": "LICENSE",
+              "requirementId": 1707,
+              "isTBO": false,
+              "tboDays": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Expired credential, Please update now",
+      "workplaceName": "PRE-HIRE EMPLOYER",
+      "workplaceLogoURL": "file:///android_asset/facility_2.png",
+      "status": "license_expiring",
+      "taskOwner": "ECHR",
+      "license": {
+        "licenseId": 123,
+        "licenseType": "EMPLOYEE_HC",
+        "professionName": "Registered Respiratory Therapist",
+        "verificationStatus": "verified",
+        "expirationStatus": "expiring",
+        "expirationDate": "2017-16-17T00:00:00.000Z",
+        "boardName": "American Heart Association",
+        "imageURL": "http://test.storages3.evercheck.com:3000/evercheck/24ddaa64-820c-4fb3-bfa8-4588f6cd0f77",
+        "daysToExpire": -260,
+        "tboDays": null,
+        "removable": false
+      }
+    }
+  ],
+  "profile": {
+    "credentials": true,
+    "removeLicense": false
+  },
+  "notifications": {
+    "activeExpiration": true,
+    "activeVerification": true
+  }
+}

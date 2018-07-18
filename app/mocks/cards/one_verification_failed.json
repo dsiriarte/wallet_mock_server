@@ -1,0 +1,19 @@
+[
+  {
+    "licenseId": "125",
+    "licenseType": "EMPLOYEE_UC",
+    "licenseNumber": null,
+    "professionName": "Registered Respiratory Therapist",
+    "active": true,
+    "expirationStatus": "verification_failed",
+    "expirationDate": "2017-10-10T00:00:00.000Z",
+    "verificationDate": "2017-10-10T00:00:00.000Z",
+    "verificationStatus": "failed",
+    "imageURL": "http://localhost:3000/images/heart_card.jpg",
+    "boardName": "American Heart Association",
+    "daysToExpire": -323,
+    "tboDays": null,
+    "removable": false,
+    "fileType": "PNG"
+  }
+]
