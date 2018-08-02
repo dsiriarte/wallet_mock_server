@@ -7957,3 +7957,888 @@ Processing by CardsController#get_employee as HTML
 Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
 
 
+Started POST "/auth" for 172.23.19.210 at 2018-07-23 17:08:53 -0500
+  
+Gem::LoadError (Specified 'sqlite3' for database adapter, but the gem is not loaded. Add `gem 'sqlite3'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  
+activerecord (5.0.7) lib/active_record/connection_adapters/connection_specification.rb:176:in `rescue in spec'
+activerecord (5.0.7) lib/active_record/connection_adapters/connection_specification.rb:173:in `spec'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:53:in `establish_connection'
+activerecord (5.0.7) lib/active_record/railtie.rb:125:in `block (2 levels) in <class:Railtie>'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:69:in `instance_eval'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:69:in `block in execute_hook'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:60:in `with_execution_control'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:65:in `execute_hook'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:50:in `block in run_load_hooks'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:49:in `each'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:49:in `run_load_hooks'
+activerecord (5.0.7) lib/active_record/base.rb:324:in `<module:ActiveRecord>'
+activerecord (5.0.7) lib/active_record/base.rb:24:in `<top (required)>'
+activesupport (5.0.7) lib/active_support/dependencies.rb:293:in `require'
+activesupport (5.0.7) lib/active_support/dependencies.rb:293:in `block in require'
+activesupport (5.0.7) lib/active_support/dependencies.rb:259:in `load_dependency'
+activesupport (5.0.7) lib/active_support/dependencies.rb:293:in `require'
+activerecord (5.0.7) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/auth" for 172.23.19.210 at 2018-07-23 17:09:00 -0500
+  
+ActiveRecord::ConnectionNotEstablished (No connection pool with id primary found.):
+  
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 172.23.6.24 at 2018-07-23 17:09:37 -0500
+  
+ActiveRecord::ConnectionNotEstablished (No connection pool with id primary found.):
+  
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favicon.ico" for 172.23.6.24 at 2018-07-23 17:09:38 -0500
+  
+ActiveRecord::ConnectionNotEstablished (No connection pool with id primary found.):
+  
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/auth" for 172.23.6.24 at 2018-07-23 17:09:51 -0500
+  
+ActiveRecord::ConnectionNotEstablished (No connection pool with id primary found.):
+  
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favicon.ico" for 172.23.6.24 at 2018-07-23 17:09:51 -0500
+  
+ActiveRecord::ConnectionNotEstablished (No connection pool with id primary found.):
+  
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/auth" for 172.23.6.24 at 2018-07-23 17:09:53 -0500
+  
+ActiveRecord::ConnectionNotEstablished (No connection pool with id primary found.):
+  
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favicon.ico" for 172.23.6.24 at 2018-07-23 17:09:53 -0500
+  
+ActiveRecord::ConnectionNotEstablished (No connection pool with id primary found.):
+  
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/auth" for 172.23.6.24 at 2018-07-23 17:14:08 -0500
+  
+Gem::LoadError (Specified 'sqlite3' for database adapter, but the gem is not loaded. Add `gem 'sqlite3'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  
+activerecord (5.0.7) lib/active_record/connection_adapters/connection_specification.rb:176:in `rescue in spec'
+activerecord (5.0.7) lib/active_record/connection_adapters/connection_specification.rb:173:in `spec'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:53:in `establish_connection'
+activerecord (5.0.7) lib/active_record/railtie.rb:125:in `block (2 levels) in <class:Railtie>'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:69:in `instance_eval'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:69:in `block in execute_hook'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:60:in `with_execution_control'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:65:in `execute_hook'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:50:in `block in run_load_hooks'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:49:in `each'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:49:in `run_load_hooks'
+activerecord (5.0.7) lib/active_record/base.rb:324:in `<module:ActiveRecord>'
+activerecord (5.0.7) lib/active_record/base.rb:24:in `<top (required)>'
+activesupport (5.0.7) lib/active_support/dependencies.rb:293:in `require'
+activesupport (5.0.7) lib/active_support/dependencies.rb:293:in `block in require'
+activesupport (5.0.7) lib/active_support/dependencies.rb:259:in `load_dependency'
+activesupport (5.0.7) lib/active_support/dependencies.rb:293:in `require'
+activerecord (5.0.7) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favicon.ico" for 172.23.6.24 at 2018-07-23 17:14:09 -0500
+  
+ActiveRecord::ConnectionNotEstablished (No connection pool with id primary found.):
+  
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/auth" for 172.23.6.24 at 2018-07-23 17:24:43 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [GET] "/auth"):
+  
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favicon.ico" for 172.23.6.24 at 2018-07-23 17:24:43 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 172.23.6.24 at 2018-07-23 17:24:52 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Library/Ruby/Gems/2.3.0/gems/railties-5.0.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Library/Ruby/Gems/2.3.0/gems/railties-5.0.7/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
+Completed 200 OK in 24ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/auth" for 172.23.19.210 at 2018-07-23 17:25:01 -0500
+Processing by AuthsController#login as */*
+  Parameters: {"grant_type"=>"password", "username"=>"one_of_each", "password"=>"[FILTERED]", "auth"=>{"grant_type"=>"password", "username"=>"one_of_each", "password"=>"[FILTERED]"}}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-23 17:25:02 -0500
+Started POST "/devices" for 172.23.19.210 at 2018-07-23 17:25:02 -0500
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Processing by DevicesController#register_fcm_token as */*
+  Parameters: {"device"=>"fV66yztSYKM:APA91bHWOATQkH3O9fjAsuOGSziag_CN10eblEJJbHhsaNrXtzPLu5ZFUqglvYilVHxOeqa2xJ2gDXWtP7GAoi4ynsSO68jDRt8O9SYdFbTZ3PKzz-BRQDDOU4FAAD4xkendUo30Uf_F4_WPGyS3EN3qiLBMFtYJag", "platform"=>"ios"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-23 17:29:34 -0500
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-23 17:30:12 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-23 17:32:43 -0500
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/auth" for 172.23.19.210 at 2018-07-23 17:32:58 -0500
+Processing by AuthsController#login as */*
+  Parameters: {"grant_type"=>"password", "username"=>"one_of_each", "password"=>"[FILTERED]", "auth"=>{"grant_type"=>"password", "username"=>"one_of_each", "password"=>"[FILTERED]"}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-23 17:32:58 -0500
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/devices" for 172.23.19.210 at 2018-07-23 17:32:58 -0500
+Processing by DevicesController#register_fcm_token as */*
+  Parameters: {"device"=>"fV66yztSYKM:APA91bHWOATQkH3O9fjAsuOGSziag_CN10eblEJJbHhsaNrXtzPLu5ZFUqglvYilVHxOeqa2xJ2gDXWtP7GAoi4ynsSO68jDRt8O9SYdFbTZ3PKzz-BRQDDOU4FAAD4xkendUo30Uf_F4_WPGyS3EN3qiLBMFtYJag", "platform"=>"ios"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 17:33:00 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-23 17:33:48 -0500
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 17:33:49 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 17:35:25 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 17:35:46 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 17:36:02 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 17:36:06 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 17:36:13 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/unmonitored/0" for 172.23.19.210 at 2018-07-23 17:39:09 -0500
+Processing by UnmonitoredController#upload_unmonitored as */*
+  Parameters: {"renewalDate"=>"07/28/2024", "file"=>#<ActionDispatch::Http::UploadedFile:0x00007fba9264e930 @tempfile=#<Tempfile:/var/folders/gf/sf28ssmn7313jsqv8yyzw1jc0000gn/T/RackMultipart20180723-57341-1l9i2vu.jpg>, @original_filename="file.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file.jpg\"\r\nContent-Type: image/jpeg\r\n">, "id"=>"0"}
+Completed 200 OK in 3006ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-23 17:43:27 -0500
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 17:43:28 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/unmonitored/0" for 172.23.19.210 at 2018-07-23 17:43:47 -0500
+Processing by UnmonitoredController#upload_unmonitored as */*
+  Parameters: {"renewalDate"=>"07/27/2018", "file"=>#<ActionDispatch::Http::UploadedFile:0x00007fba92557928 @tempfile=#<Tempfile:/var/folders/gf/sf28ssmn7313jsqv8yyzw1jc0000gn/T/RackMultipart20180723-57341-12pw97h.jpg>, @original_filename="file.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file.jpg\"\r\nContent-Type: image/jpeg\r\n">, "id"=>"0"}
+Completed 200 OK in 3001ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-23 17:44:19 -0500
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 17:44:23 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/unmonitored/0" for 172.23.19.210 at 2018-07-23 17:44:36 -0500
+Processing by UnmonitoredController#upload_unmonitored as */*
+  Parameters: {"renewalDate"=>"07/27/2018", "file"=>#<ActionDispatch::Http::UploadedFile:0x00007fba933e9270 @tempfile=#<Tempfile:/var/folders/gf/sf28ssmn7313jsqv8yyzw1jc0000gn/T/RackMultipart20180723-57341-19i6v3n.jpg>, @original_filename="file.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file.jpg\"\r\nContent-Type: image/jpeg\r\n">, "id"=>"0"}
+Completed 200 OK in 3005ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-23 17:57:00 -0500
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 17:57:01 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/unmonitored/0" for 172.23.19.210 at 2018-07-23 17:57:40 -0500
+Processing by UnmonitoredController#upload_unmonitored as */*
+  Parameters: {"renewalDate"=>"07/27/2018", "file"=>#<ActionDispatch::Http::UploadedFile:0x00007fba92416f78 @tempfile=#<Tempfile:/var/folders/gf/sf28ssmn7313jsqv8yyzw1jc0000gn/T/RackMultipart20180723-57341-7s7mwh.jpg>, @original_filename="file.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file.jpg\"\r\nContent-Type: image/jpeg\r\n">, "id"=>"0"}
+Completed 200 OK in 3004ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-23 18:40:04 -0500
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 18:40:07 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/unmonitored/0" for 172.23.19.210 at 2018-07-23 18:40:21 -0500
+Processing by UnmonitoredController#upload_unmonitored as */*
+  Parameters: {"renewalDate"=>"07/25/2018", "file"=>#<ActionDispatch::Http::UploadedFile:0x00007fba92a91c68 @tempfile=#<Tempfile:/var/folders/gf/sf28ssmn7313jsqv8yyzw1jc0000gn/T/RackMultipart20180723-57341-he0u9j.jpg>, @original_filename="file.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file.jpg\"\r\nContent-Type: image/jpeg\r\n">, "id"=>"0"}
+Completed 200 OK in 3001ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-23 18:42:10 -0500
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-23 18:42:22 -0500
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 18:42:23 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/unmonitored/0" for 172.23.19.210 at 2018-07-23 18:42:36 -0500
+Processing by UnmonitoredController#upload_unmonitored as */*
+  Parameters: {"renewalDate"=>"07/26/2018", "file"=>#<ActionDispatch::Http::UploadedFile:0x00007fba93083180 @tempfile=#<Tempfile:/var/folders/gf/sf28ssmn7313jsqv8yyzw1jc0000gn/T/RackMultipart20180723-57341-8886qz.jpg>, @original_filename="file.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file.jpg\"\r\nContent-Type: image/jpeg\r\n">, "id"=>"0"}
+Completed 200 OK in 3003ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-23 18:43:39 -0500
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 18:43:41 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/unmonitored/0" for 172.23.19.210 at 2018-07-23 18:43:54 -0500
+Processing by UnmonitoredController#upload_unmonitored as */*
+  Parameters: {"renewalDate"=>"11/23/2018", "file"=>#<ActionDispatch::Http::UploadedFile:0x00007fba92b41898 @tempfile=#<Tempfile:/var/folders/gf/sf28ssmn7313jsqv8yyzw1jc0000gn/T/RackMultipart20180723-57341-tlcw7s.jpg>, @original_filename="file.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file.jpg\"\r\nContent-Type: image/jpeg\r\n">, "id"=>"0"}
+Completed 200 OK in 3003ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-23 18:47:13 -0500
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 18:47:18 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/unmonitored/0" for 172.23.19.210 at 2018-07-23 18:47:43 -0500
+Processing by UnmonitoredController#upload_unmonitored as */*
+  Parameters: {"renewalDate"=>"07/28/2018", "file"=>#<ActionDispatch::Http::UploadedFile:0x00007fba925bd6b0 @tempfile=#<Tempfile:/var/folders/gf/sf28ssmn7313jsqv8yyzw1jc0000gn/T/RackMultipart20180723-57341-1ws5w73.jpg>, @original_filename="file.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file.jpg\"\r\nContent-Type: image/jpeg\r\n">, "id"=>"0"}
+Completed 200 OK in 3002ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-23 18:50:38 -0500
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 18:50:39 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/unmonitored/0" for 172.23.19.210 at 2018-07-23 18:50:52 -0500
+Processing by UnmonitoredController#upload_unmonitored as */*
+  Parameters: {"renewalDate"=>"07/23/2021", "file"=>#<ActionDispatch::Http::UploadedFile:0x00007fba93419218 @tempfile=#<Tempfile:/var/folders/gf/sf28ssmn7313jsqv8yyzw1jc0000gn/T/RackMultipart20180723-57341-scqkv2.jpg>, @original_filename="file.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file.jpg\"\r\nContent-Type: image/jpeg\r\n">, "id"=>"0"}
+Completed 200 OK in 3004ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 18:51:37 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/unmonitored/0" for 172.23.19.210 at 2018-07-23 18:51:51 -0500
+Processing by UnmonitoredController#upload_unmonitored as */*
+  Parameters: {"renewalDate"=>"", "file"=>#<ActionDispatch::Http::UploadedFile:0x00007fba933e21a0 @tempfile=#<Tempfile:/var/folders/gf/sf28ssmn7313jsqv8yyzw1jc0000gn/T/RackMultipart20180723-57341-1yap9cp.jpg>, @original_filename="file.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file.jpg\"\r\nContent-Type: image/jpeg\r\n">, "id"=>"0"}
+Completed 200 OK in 3005ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-23 18:55:28 -0500
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 18:55:40 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/unmonitored/0" for 172.23.19.210 at 2018-07-23 18:55:51 -0500
+Processing by UnmonitoredController#upload_unmonitored as */*
+  Parameters: {"renewalDate"=>"07/23/2023", "file"=>#<ActionDispatch::Http::UploadedFile:0x00007fba9526e6f0 @tempfile=#<Tempfile:/var/folders/gf/sf28ssmn7313jsqv8yyzw1jc0000gn/T/RackMultipart20180723-57341-sapa0o.jpg>, @original_filename="file.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file.jpg\"\r\nContent-Type: image/jpeg\r\n">, "id"=>"0"}
+Completed 200 OK in 3005ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-23 19:00:19 -0500
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 19:00:20 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/unmonitored/0" for 172.23.19.210 at 2018-07-23 19:00:32 -0500
+Processing by UnmonitoredController#upload_unmonitored as */*
+  Parameters: {"renewalDate"=>"07/28/2018", "file"=>#<ActionDispatch::Http::UploadedFile:0x00007fba9525c270 @tempfile=#<Tempfile:/var/folders/gf/sf28ssmn7313jsqv8yyzw1jc0000gn/T/RackMultipart20180723-57341-bejtj2.jpg>, @original_filename="file.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file.jpg\"\r\nContent-Type: image/jpeg\r\n">, "id"=>"0"}
+Completed 200 OK in 3004ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-23 19:11:09 -0500
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 19:11:11 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/unmonitored/0" for 172.23.19.210 at 2018-07-23 19:11:22 -0500
+Processing by UnmonitoredController#upload_unmonitored as */*
+  Parameters: {"renewalDate"=>"07/27/2018", "file"=>#<ActionDispatch::Http::UploadedFile:0x00007fba95255920 @tempfile=#<Tempfile:/var/folders/gf/sf28ssmn7313jsqv8yyzw1jc0000gn/T/RackMultipart20180723-57341-11h6hco.jpg>, @original_filename="file.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file.jpg\"\r\nContent-Type: image/jpeg\r\n">, "id"=>"0"}
+Completed 200 OK in 3004ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-23 19:16:59 -0500
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 19:17:13 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 19:17:19 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/unmonitored/0" for 172.23.19.210 at 2018-07-23 19:17:33 -0500
+Processing by UnmonitoredController#upload_unmonitored as */*
+  Parameters: {"renewalDate"=>"10/23/2018", "file"=>#<ActionDispatch::Http::UploadedFile:0x00007fba92447808 @tempfile=#<Tempfile:/var/folders/gf/sf28ssmn7313jsqv8yyzw1jc0000gn/T/RackMultipart20180723-57341-18vjhad.jpg>, @original_filename="file.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file.jpg\"\r\nContent-Type: image/jpeg\r\n">, "id"=>"0"}
+Completed 200 OK in 3006ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 19:17:46 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heartcards/0/verifications/ecard" for 172.23.19.210 at 2018-07-23 19:18:02 -0500
+Processing by CardsController#upload_number as */*
+  Parameters: {"number"=>"133566557766", "id"=>"0", "card"=>{"number"=>"133566557766"}}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heartcards/0/verifications/ecard" for 172.23.19.210 at 2018-07-23 19:18:12 -0500
+Processing by CardsController#upload_number as */*
+  Parameters: {"number"=>"133566557766", "id"=>"0", "card"=>{"number"=>"133566557766"}}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-23 19:18:17 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/heartcards/0/verifications/ecard" for 172.23.19.210 at 2018-07-23 19:18:35 -0500
+Processing by CardsController#upload_number as */*
+  Parameters: {"number"=>"888888888889", "id"=>"0", "card"=>{"number"=>"888888888889"}}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.19.210 at 2018-07-24 09:04:56 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-24 09:04:58 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/unmonitored/0" for 172.23.19.210 at 2018-07-24 09:05:34 -0500
+Processing by UnmonitoredController#upload_unmonitored as */*
+  Parameters: {"renewalDate"=>"07/24/2021", "file"=>#<ActionDispatch::Http::UploadedFile:0x00007fa1adbf3c58 @tempfile=#<Tempfile:/var/folders/gf/sf28ssmn7313jsqv8yyzw1jc0000gn/T/RackMultipart20180724-64695-wnhpuv.jpg>, @original_filename="file.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file.jpg\"\r\nContent-Type: image/jpeg\r\n">, "id"=>"0"}
+Completed 200 OK in 3003ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.19.210 at 2018-07-24 09:07:00 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/auth" for 172.23.3.73 at 2018-07-24 09:09:52 -0500
+Processing by AuthsController#login as */*
+  Parameters: {"grant_type"=>"password", "username"=>"one_of_each", "password"=>"[FILTERED]", "auth"=>{"grant_type"=>"password", "username"=>"one_of_each", "password"=>"[FILTERED]"}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.3.73 at 2018-07-24 09:09:52 -0500
+Processing by CardsController#get_employee as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/devices" for 172.23.3.73 at 2018-07-24 09:09:53 -0500
+Processing by DevicesController#register_fcm_token as */*
+  Parameters: {"device"=>"d_OjhSdCt8U:APA91bFRaCjZerKMWIkKSJUAl2MFnqRw5eqTM9qlLnGk3z_5G3NKOmGW-bKifJAITaDgMahGfytM0LSX1_HKO5Zw7foebMIRPDADLcGI_6riFCkqDPGsRitgTTvT8D4m6p5u17v5tgDmtxCSrBaRoWSurZigmR44fA", "platform"=>"ios"}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.3.73 at 2018-07-24 09:09:54 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/unmonitored/0" for 172.23.3.73 at 2018-07-24 09:10:35 -0500
+Processing by UnmonitoredController#upload_unmonitored as */*
+  Parameters: {"renewalDate"=>"07/24/2020", "file"=>#<ActionDispatch::Http::UploadedFile:0x00007fa1ad441dc0 @tempfile=#<Tempfile:/var/folders/gf/sf28ssmn7313jsqv8yyzw1jc0000gn/T/RackMultipart20180724-64695-1si37r.jpg>, @original_filename="file.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"file.jpg\"\r\nContent-Type: image/jpeg\r\n">, "id"=>"0"}
+Completed 200 OK in 3006ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.3.73 at 2018-07-24 09:11:11 -0500
+Processing by CardsController#get_user_cards as */*
+  Parameters: {"card"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
