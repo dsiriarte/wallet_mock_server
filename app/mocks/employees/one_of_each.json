@@ -38,7 +38,7 @@
       "description": "Submit your pre-hire application",
       "workplaceName": "Pudre Valley Hospital",
       "workplaceLogoURL": "file:///android_asset/facility_3.png",
-      "status": "verification_failed_heartcard",
+      "status": "verification_failed_heartcard_employee",
       "taskOwner": "Prehire",
       "messageId":"2",
       "requirements": [
