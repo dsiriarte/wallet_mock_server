@@ -18,6 +18,7 @@
       "workplaceName": "PRE-HIRE EMPLOYER",
       "workplaceLogoURL": "file:///android_asset/facility_2.png",
       "status": "license_expiring",
+      "messageId":"1",
       "taskOwner": "ECHR",
       "license": {
         "licenseId": 124,
@@ -39,6 +40,7 @@
       "workplaceLogoURL": "file:///android_asset/facility_3.png",
       "status": "verification_failed_heartcard",
       "taskOwner": "Prehire",
+      "messageId":"2",
       "requirements": [
         {
           "boardId": 17,
@@ -121,6 +123,7 @@
       "workplaceLogoURL": "file:///android_asset/facility_2.png",
       "status": "heartcard_expired",
       "taskOwner": "ECHR",
+      "messageId":"3",
       "license": {
         "licenseId": 123,
         "licenseType": "EMPLOYEE_HC",
@@ -141,6 +144,7 @@
       "workplaceLogoURL": "file:///android_asset/facility_3.png",
       "status": "license_expired",
       "taskOwner": "ECHR",
+      "messageId":"4",
       "license": {
         "licenseId": 901,
         "licenseType": "EMPLOYEE_HC",
