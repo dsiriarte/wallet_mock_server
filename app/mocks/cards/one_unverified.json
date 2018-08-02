@@ -1,0 +1,19 @@
+[
+  {
+    "licenseId": "346",
+    "licenseType": "ACLS",
+    "licenseNumber": null,
+    "professionName": "Registered Respiratory Therapist",
+    "active": true,
+    "expirationStatus": "unverified",
+    "expirationDate": null,
+    "verificationDate": "2017-10-10T00:00:00.000Z",
+    "verificationStatus": "unverified",
+    "imageURL": "http://localhost:3000/images/heart_card.jpg",
+    "boardName": "American Heart Association",
+    "daysToExpire": -323,
+    "tboDays": null,
+    "removable": false,
+    "fileType": "PNG"
+  }
+]
