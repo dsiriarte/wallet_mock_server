@@ -98,22 +98,6 @@
               "tboDays": 30
             }
           ]
-        },
-        {
-          "boardId": 17,
-          "name": "Oregon State Board of Nursing",
-          "status": "verifying",
-          "professions": [
-            {
-              "professionId": 39,
-              "professionName": "Nurse Practitioner",
-              "status": "verifying",
-              "type": "LICENSE",
-              "requirementId": 1706,
-              "isTBO": true,
-              "tboDays": 30
-            }
-          ]
         }
       ]
     },
