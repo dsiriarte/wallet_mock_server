@@ -49,7 +49,7 @@
           "professions": [
             {
               "professionId": 39,
-              "professionName": "License unmonitored",
+              "professionName": "unmonitored",
               "status": "verifying",
               "type": "LIC_UNMONITORED",
               "requirementId": 1706,
