@@ -49,21 +49,21 @@
           "professions": [
             {
               "professionId": 39,
-              "professionName": "Nurse Practitioner",
+              "professionName": "License unmonitored",
               "status": "verifying",
               "type": "LIC_UNMONITORED",
               "requirementId": 1706,
-              "isTBO": false,
-              "tboDays": null
+              "isTBO": true,
+              "tboDays": 20
             },
             {
               "professionId": 36,
-              "professionName": "Registered Nurse",
+              "professionName": "License",
               "status": "verifying",
               "type": "LICENSE",
               "requirementId": 1707,
-              "isTBO": false,
-              "tboDays": null
+              "isTBO": true,
+              "tboDays": 25
             }
           ]
         },
@@ -74,7 +74,7 @@
           "professions": [
             {
               "professionId": 39,
-              "professionName": "Nurse Practitioner",
+              "professionName": "Certification",
               "status": "verifying",
               "type": "CERTIFICATION",
               "requirementId": 1706,
@@ -90,7 +90,7 @@
           "professions": [
             {
               "professionId": 39,
-              "professionName": "Nurse Practitioner 2",
+              "professionName": "Heartcard",
               "status": "verifying",
               "type": "APPLICANT_HR",
               "requirementId": 1706,
@@ -106,7 +106,7 @@
           "professions": [
             {
               "professionId": 39,
-              "professionName": "Nurse Practitioner 3",
+              "professionName": "License",
               "status": "verifying",
               "type": "LICENSE",
               "requirementId": 1706,
