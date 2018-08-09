@@ -19,4 +19,6 @@ Rails.application.routes.draw do
   post '/applications/wallet/passwordResetTokens', to: 'sign_up#reset_password'
   get '/users/workplaces', to:'workplaces#get_workplaces'
   post '/unmonitored/:id', to: 'unmonitored#upload_unmonitored'
+  get '/applicants/:applicantId/requirements', to:'requirements#get_requirements'
+  post '/applicants/:applicantId/requirements/:requirementId/automated', to: 'requirements#add_licenses_or_certification'
 end

@@ -33,11 +33,7 @@
           "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
           "fileType":null
              },
-            "back":{
-          "description":"Back",
-          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
-          "fileType":null
-             }
+            "back": null
         },
     "boardName": "American Heart Association",
     "daysToExpire": -323,
@@ -117,14 +113,10 @@
     "documentation":{
           "front":{
           "description":"Front",
-          "url":"http://www.pdf995.com/samples/pdf.pd",
+          "url":"http://www.pdf995.com/samples/pdf.pdf",
           "fileType": "PDF"
              },
-            "back":{
-          "description":"Back",
-          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
-          "fileType":null
-             }
+            "back":null
         },
     "boardName": "American Heart Association",
     "daysToExpire": -323,
@@ -147,11 +139,7 @@
           "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
           "fileType":null
              },
-            "back":{
-          "description":"Back",
-          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
-          "fileType":null
-             }
+            "back": null
         },
     "boardName": "American Heart Association",
     "daysToExpire": -323,
