@@ -10,6 +10,14 @@
     "verificationDate": "2017-10-10T00:00:00.000Z",
     "verificationStatus": "successful",
     "imageURL": "http://localhost:3000/images/heart_card.jpg",
+    "documentation":{
+          "front":{
+          "description":"Front",
+          "url":"http://www.pdf995.com/samples/pdf.pdf",
+          "fileType": "PDF"
+             },
+            "back":null
+        },
     "boardName": "American Heart Association",
     "daysToExpire": -323,
     "tboDays": null,

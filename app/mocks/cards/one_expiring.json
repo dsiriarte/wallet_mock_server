@@ -10,6 +10,18 @@
     "verificationDate": "2018-05-27T00:00:00.000Z",
     "verificationStatus": "successful",
     "imageURL": "http://localhost:3000/images/heart_card.jpg",
+    "documentation":{
+          "front":{
+          "description":"Front",
+          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
+          "fileType":null
+             },
+            "back":{
+          "description":"Back",
+          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
+          "fileType":null
+             }
+        },
     "boardName": "American Heart Association",
     "daysToExpire": -323,
     "tboDays": null,
