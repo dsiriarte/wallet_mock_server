@@ -27,6 +27,18 @@
     "verificationDate": "2017-10-10T00:00:00.000Z",
     "verificationStatus": "verifying",
     "imageURL": "http://localhost:3000/images/heart_card.jpg",
+    "documentation":{
+          "front":{
+          "description":"Front",
+          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
+          "fileType":null
+             },
+            "back":{
+          "description":"Back",
+          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
+          "fileType":null
+             }
+        },
     "boardName": "American Heart Association",
     "daysToExpire": -323,
     "tboDays": null,
@@ -44,6 +56,18 @@
     "verificationDate": "2017-10-10T00:00:00.000Z",
     "verificationStatus": "rejected",
     "imageURL": "http://localhost:3000/images/heart_card.jpg",
+    "documentation":{
+          "front":{
+          "description":"Front",
+          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
+          "fileType":null
+             },
+            "back":{
+          "description":"Back",
+          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
+          "fileType":null
+             }
+        },
     "boardName": "American Heart Association",
     "daysToExpire": -323,
     "tboDays": null,
@@ -61,6 +85,18 @@
     "verificationDate": "2017-10-10T00:00:00.000Z",
     "verificationStatus": "verified",
     "imageURL": "http://localhost:3000/images/heart_card.jpg",
+    "documentation":{
+          "front":{
+          "description":"Front",
+          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
+          "fileType":null
+             },
+            "back":{
+          "description":"Back",
+          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
+          "fileType":null
+             }
+        },
     "boardName": "American Heart Association",
     "daysToExpire": -323,
     "tboDays": null,
@@ -78,6 +114,18 @@
     "verificationDate": "2017-10-10T00:00:00.000Z",
     "verificationStatus": "verified",
     "imageURL": "http://www.pdf995.com/samples/pdf.pdf",
+    "documentation":{
+          "front":{
+          "description":"Front",
+          "url":"http://www.pdf995.com/samples/pdf.pd",
+          "fileType": "PDF"
+             },
+            "back":{
+          "description":"Back",
+          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
+          "fileType":null
+             }
+        },
     "boardName": "American Heart Association",
     "daysToExpire": -323,
     "tboDays": null,
@@ -93,6 +141,18 @@
     "expirationStatus": "current",
     "archivedOn": "2017-10-10T00:00:00.000Z",
     "imageURL": "http://localhost:3000/images/heart_card.jpg",
+    "documentation":{
+          "front":{
+          "description":"Front",
+          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
+          "fileType":null
+             },
+            "back":{
+          "description":"Back",
+          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
+          "fileType":null
+             }
+        },
     "boardName": "American Heart Association",
     "daysToExpire": -323,
     "tboDays": null,
@@ -108,6 +168,18 @@
     "expirationStatus": "current",
     "archivedOn": "2017-10-10T00:00:00.000Z",
     "imageURL": "http://localhost:3000/images/heart_card.jpg",
+    "documentation":{
+          "front":{
+          "description":"Front",
+          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
+          "fileType":null
+             },
+            "back":{
+          "description":"Back",
+          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
+          "fileType":null
+             }
+        },
     "boardName": "American Heart Association",
     "daysToExpire": -323,
     "tboDays": null,
@@ -125,6 +197,18 @@
     "verificationDate": "2017-10-10T00:00:00.000Z",
     "verificationStatus": "verified",
     "imageURL": "http://localhost:3000/images/heart_card.jpg",
+    "documentation":{
+          "front":{
+          "description":"Front",
+          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
+          "fileType":null
+             },
+            "back":{
+          "description":"Back",
+          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
+          "fileType":null
+             }
+        },
     "boardName": "American Heart Association",
     "daysToExpire": -323,
     "tboDays": null,
