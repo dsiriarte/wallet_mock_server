@@ -22,5 +22,7 @@ Rails.application.routes.draw do
   get '/applicants/:applicantId/requirements', to:'requirements#get_requirements'
   post '/applicants/:applicantId/requirements/:requirementId/automated', to: 'requirements#add_licenses_or_certification'
   post '/applicants/:applicantId/requirements/:requirementId/unmonitored', to: 'requirements#upload_picture'
+  post '/applicants/:applicantId/requirements/:requirementId/ocr', to: 'requirements#upload_pictures'
+  post '/applicants/:applicantId/requirements/:requirementId/ecard', to: 'requirements#upload_ecard'
   post '/applicants/:applicantId/requirements/:requirementId/tbo', to: 'requirements#tbo'
 end

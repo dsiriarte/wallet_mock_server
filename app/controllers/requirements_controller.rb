@@ -17,6 +17,20 @@ class RequirementsController < ApplicationController
     }, status: :ok
   end
 
+  def upload_pictures
+    render json: {
+      status: "SuccessSubmission",
+      message: "The submission was received, a notification will be sent when it's completed"
+    }, status: :ok
+  end
+
+  def upload_ecard
+    render json: {
+      status: "SuccessSubmission",
+      message: "The submission was received, a notification will be sent when it's completed"
+    }, status: :ok
+  end
+
   def add_licenses_or_certification
     render json: {
 	  	status: "SuccessSubmission",
