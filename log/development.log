@@ -27288,3 +27288,88 @@ Processing by CardsController#get_employee as HTML
 Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/users/me" for 172.23.2.184 at 2018-08-10 09:00:44 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 9ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-10 09:00:48 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-10 09:00:53 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-10 09:00:53 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/devices" for 172.23.2.184 at 2018-08-10 09:00:54 -0500
+Processing by DevicesController#un_register_fcm_token as HTML
+  Parameters: {"device"=>"test_token"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/auth" for 172.23.2.184 at 2018-08-10 09:01:01 -0500
+Processing by AuthsController#login as HTML
+  Parameters: {"username"=>"one_of_each", "password"=>"[FILTERED]", "grant_type"=>"password"}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/devices" for 172.23.2.184 at 2018-08-10 09:01:01 -0500
+Processing by DevicesController#register_fcm_token as HTML
+  Parameters: {"device"=>"test_token", "platform"=>"android"}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-10 09:01:01 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-10 09:01:01 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/2/requirements" for 172.23.2.184 at 2018-08-10 09:01:04 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"2"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/2/requirements" for 172.23.2.184 at 2018-08-10 09:01:31 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"2"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.2.180 at 2018-08-10 09:20:01 -0500
+Processing by CardsController#get_user_cards as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.2.180 at 2018-08-10 09:20:36 -0500
+Processing by CardsController#get_user_cards as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-10 09:24:55 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.2.184 at 2018-08-10 09:24:57 -0500
+Processing by CardsController#get_user_cards as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for 172.23.2.184 at 2018-08-10 09:26:04 -0500
+Processing by CardsController#get_user_cards as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
