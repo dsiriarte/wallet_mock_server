@@ -31026,3 +31026,141 @@ puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
 puma (3.12.0) lib/puma/server.rb:472:in `process_client'
 puma (3.12.0) lib/puma/server.rb:332:in `block in run'
 puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/api/v1/users/me" for 172.23.2.184 at 2018-08-10 10:33:54 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/users/me"):
+  
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users/me" for 172.23.2.184 at 2018-08-10 10:34:19 -0500
+Processing by CardsController#get_employee as */*
+Filter chain halted as :authenticate! rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-10 10:34:59 -0500
+Processing by CardsController#get_employee as */*
+Filter chain halted as :authenticate! rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-10 11:21:06 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-10 11:26:27 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/2/requirements" for 172.23.2.184 at 2018-08-10 11:26:35 -0500
+  
+SyntaxError (/Users/jorge_caro/Documents/wallet_mock_server/app/controllers/requirements_controller.rb:18: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+    }, status: :ok
+     ^
+/Users/jorge_caro/Documents/wallet_mock_server/app/controllers/requirements_controller.rb:25: syntax error, unexpected tSTRING_DEND, expecting '}'
+    }, status: :ok
+     ^
+/Users/jorge_caro/Documents/wallet_mock_server/app/controllers/requirements_controller.rb:32: syntax error, unexpected tSTRING_DEND, expecting '}'
+    }, status: :ok
+     ^):
+  
+app/controllers/requirements_controller.rb:18: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+app/controllers/requirements_controller.rb:25: syntax error, unexpected tSTRING_DEND, expecting '}'
+app/controllers/requirements_controller.rb:32: syntax error, unexpected tSTRING_DEND, expecting '}'
+Started GET "/users/me" for 172.23.2.184 at 2018-08-10 11:27:36 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/2/requirements" for 172.23.2.184 at 2018-08-10 11:29:05 -0500
+  
+SyntaxError (/Users/jorge_caro/Documents/wallet_mock_server/app/controllers/requirements_controller.rb:18: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+    }, status: :ok
+     ^
+/Users/jorge_caro/Documents/wallet_mock_server/app/controllers/requirements_controller.rb:25: syntax error, unexpected tSTRING_DEND, expecting '}'
+    }
+     ^
+/Users/jorge_caro/Documents/wallet_mock_server/app/controllers/requirements_controller.rb:34: syntax error, unexpected '}', expecting keyword_end
+    }, status: :ok
+     ^):
+  
+app/controllers/requirements_controller.rb:18: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+app/controllers/requirements_controller.rb:25: syntax error, unexpected tSTRING_DEND, expecting '}'
+app/controllers/requirements_controller.rb:34: syntax error, unexpected '}', expecting keyword_end
+Started GET "/users/me" for 172.23.2.184 at 2018-08-10 11:29:42 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/2/requirements" for 172.23.2.184 at 2018-08-10 11:29:45 -0500
+  
+SyntaxError (/Users/jorge_caro/Documents/wallet_mock_server/app/controllers/requirements_controller.rb:18: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+    }, status: :ok
+     ^):
+  
+app/controllers/requirements_controller.rb:18: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+Started GET "/users/me" for 172.23.2.184 at 2018-08-10 11:30:07 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/2/requirements" for 172.23.2.184 at 2018-08-10 11:30:09 -0500
+  
+SyntaxError (/Users/jorge_caro/Documents/wallet_mock_server/app/controllers/requirements_controller.rb:18: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+    }, status: :ok
+     ^
+/Users/jorge_caro/Documents/wallet_mock_server/app/controllers/requirements_controller.rb:25: syntax error, unexpected tSTRING_DEND, expecting '}'
+    }
+     ^
+/Users/jorge_caro/Documents/wallet_mock_server/app/controllers/requirements_controller.rb:34: syntax error, unexpected '}', expecting keyword_end
+    }, status: :ok
+     ^):
+  
+app/controllers/requirements_controller.rb:18: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+app/controllers/requirements_controller.rb:25: syntax error, unexpected tSTRING_DEND, expecting '}'
+app/controllers/requirements_controller.rb:34: syntax error, unexpected '}', expecting keyword_end
+Started GET "/users/me" for 172.23.2.184 at 2018-08-10 11:30:47 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/2/requirements" for 172.23.2.184 at 2018-08-10 11:30:49 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"2"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/2/requirements" for 172.23.2.184 at 2018-08-10 11:30:56 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"2"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-10 11:30:57 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+

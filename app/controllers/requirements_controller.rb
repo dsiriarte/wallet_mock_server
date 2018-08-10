@@ -14,7 +14,6 @@ class RequirementsController < ApplicationController
     render json: {
       status: "SuccessSubmission",
       message: "The submission was received, a notification will be sent when it's completed"
-      }
     }, status: :ok
   end
 
