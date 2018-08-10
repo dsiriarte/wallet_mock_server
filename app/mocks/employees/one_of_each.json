@@ -4,9 +4,8 @@
   "middleName": "",
   "lastName": "Doe",
   "fullName": "John Doe",
-  "number": "1234",
   "email": "Doe@mail.com",
-  "accountId": 7,
+  "role": "employee",
   "employer": {
     "id": 123,
     "name": "Sample employer",
