@@ -7,26 +7,10 @@
                 "boardName": "California Board of Registered Nursing",
                 "boardUrl": "https://www.breeze.ca.gov/datamart/loginCADCA.do",
                 "professionName": "Unmonitored",
-                "status": "completed",
+                "status": "submit",
                 "type": "APPLICANT_UC",
                 "isTBO": true,
-                "credential": {
-                    "licenseNumber": "123456789",
-                    "expirationDate" :"01/01/2019",
-                    "certState": "Alabama",
-                    "documentation": {
-                        "back":{
-                            "description": "desc",
-                            "fileType": "png",
-                            "url": "https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44"
-                        },
-                        "front": {
-                            "description": "desc",
-                            "fileType": "png",
-                            "url": "https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44"
-                        }
-                    }
-                },
+                "credential": null,
                 "tboDays": 30,
                 "regExp": null,
                 "hint": null

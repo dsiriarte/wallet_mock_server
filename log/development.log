@@ -37535,3 +37535,182 @@ Processing by RequirementsController#get_requirements as HTML
 Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/users/me" for 172.23.2.184 at 2018-08-14 09:46:00 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/4/requirements" for 172.23.2.184 at 2018-08-14 09:46:10 -0500
+  
+SyntaxError (/Users/jorge_caro/Documents/wallet_mock_server/app/controllers/requirements_controller.rb:51: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/requirements_controller.rb:51: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/users/me" for 172.23.2.184 at 2018-08-14 09:47:19 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/4/requirements" for 172.23.2.184 at 2018-08-14 09:47:22 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"4"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-14 09:48:10 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/2/requirements" for 172.23.2.184 at 2018-08-14 09:48:13 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"2"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-14 09:49:13 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/2/requirements" for 172.23.2.184 at 2018-08-14 09:49:17 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"2"}
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-14 09:50:36 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/2/requirements" for 172.23.2.184 at 2018-08-14 09:50:39 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"2"}
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-14 09:51:52 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/2/requirements" for 172.23.2.184 at 2018-08-14 09:51:55 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"2"}
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-14 09:53:01 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/2/requirements" for 172.23.2.184 at 2018-08-14 09:53:04 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"2"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-14 09:53:10 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/2/requirements" for 172.23.2.184 at 2018-08-14 09:53:20 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"2"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-14 09:53:42 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/2/requirements" for 172.23.2.184 at 2018-08-14 09:53:44 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"2"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-14 09:53:48 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/4/requirements" for 172.23.2.184 at 2018-08-14 09:53:52 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"4"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-14 09:54:35 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/4/requirements" for 172.23.2.184 at 2018-08-14 09:54:39 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"4"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 172.23.2.184 at 2018-08-14 09:54:58 -0500
+Processing by CardsController#get_employee as HTML
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/4/requirements" for 172.23.2.184 at 2018-08-14 09:55:00 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"4"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/4/requirements" for 172.23.2.184 at 2018-08-14 09:55:04 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"4"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/4/requirements" for 172.23.2.184 at 2018-08-14 09:55:07 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"4"}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/4/requirements" for 172.23.2.184 at 2018-08-14 09:55:09 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"4"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/4/requirements" for 172.23.2.184 at 2018-08-14 09:55:13 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"4"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/4/requirements" for 172.23.2.184 at 2018-08-14 10:02:01 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"4"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/4/requirements" for 172.23.2.184 at 2018-08-14 10:03:02 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"4"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/4/requirements" for 172.23.2.184 at 2018-08-14 10:03:20 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"4"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/applicants/4/requirements" for 172.23.2.184 at 2018-08-14 10:03:30 -0500
+Processing by RequirementsController#get_requirements as HTML
+  Parameters: {"applicantId"=>"4"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+

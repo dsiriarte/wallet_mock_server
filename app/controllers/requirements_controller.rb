@@ -2,13 +2,17 @@ class RequirementsController < ApplicationController
   before_action :authenticate!, only: [:get_inbox_items]
 
   def get_requirements
-    render json: generate_requirements_response, status: :ok
+    id = params[:applicantId]
+    render json: generate_requirements_response(id), status: :ok
   end
 
-  def generate_requirements_response
-    workplaces_json = File.read("#{Rails.root}/app/mocks/requirements/requirements.json")
-    return workplaces_json
+  def generate_requirements_response(id)
+      if id == "2"
+      return File.read("#{Rails.root}/app/mocks/requirements/requirements.json")
+    else
+      return workplaces_json = File.read("#{Rails.root}/app/mocks/requirements/requirements_completed.json")
   end
+end
 
   def upload_picture
     render json: {
