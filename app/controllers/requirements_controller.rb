@@ -49,4 +49,11 @@ end
     }, status: :ok
   end
 
+  def submit
+    render json: {
+      status: "SuccessSubmission",
+      message: "Requirements submitted successfully"
+    }, status: :ok
+  end
+
 end

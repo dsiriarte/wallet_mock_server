@@ -25,4 +25,5 @@ Rails.application.routes.draw do
   post '/applicants/:applicantId/requirements/:requirementId/ocr', to: 'requirements#upload_pictures'
   post '/applicants/:applicantId/requirements/:requirementId/ecard', to: 'requirements#upload_ecard'
   post '/applicants/:applicantId/requirements/:requirementId/tbo', to: 'requirements#tbo'
+  put '/applicants/:applicantId/requirements/submit', to: 'requirements#submit'
 end

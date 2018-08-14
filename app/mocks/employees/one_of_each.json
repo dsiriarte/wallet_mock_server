@@ -35,11 +35,12 @@
       }
     },
     {
-      "description": "Submit your pre-hire application",
+      "description": "Submit your pre-hire application 1",
       "workplaceName": "Pudre Valley Hospital",
       "workplaceLogoURL": "file:///android_asset/facility_3.png",
       "status": "submit",
       "messageOwner": "PreHire",
+      "requirementId": 2,
       "messageId":"2",
       "applicantId": 2
     },
@@ -71,6 +72,7 @@
       "workplaceLogoURL": "file:///android_asset/facility_3.png",
       "status": "submit",
       "messageOwner": "PreHire",
+      "requirementId": 5,
       "messageId":"5",
       "applicantId": 4
     },
