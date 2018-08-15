@@ -23,6 +23,8 @@ Rails.application.routes.draw do
   post '/applicants/:applicantId/requirements/:requirementId/automated', to: 'requirements#add_licenses_or_certification'
   post '/applicants/:applicantId/requirements/:requirementId/unmonitored', to: 'requirements#upload_picture'
   post '/applicants/:applicantId/requirements/:requirementId/ocr', to: 'requirements#upload_pictures'
+  put '/applicants/:applicantId/requirements/:requirementId/unmonitored', to: 'requirements#upload_picture'
+  put '/applicants/:applicantId/requirements/:requirementId/ocr', to: 'requirements#upload_pictures'
   post '/applicants/:applicantId/requirements/:requirementId/ecard', to: 'requirements#upload_ecard'
   post '/applicants/:applicantId/requirements/:requirementId/tbo', to: 'requirements#tbo'
   put '/applicants/:applicantId/requirements/submit', to: 'requirements#submit'
