@@ -39,7 +39,7 @@
                 "boardName": "Alabama Board of Nursing",
                 "boardUrl": "https://abn.alabama.gov/applications/LicenseLookup.aspx",
                 "professionName": "Heartcard",
-                "status": "completed",
+                "status": "rejected",
                 "type": "APPLICANT_HC",
                 "isTBO": true,
                 "credential": {
