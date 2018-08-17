@@ -6,6 +6,11 @@ class RequirementsController < ApplicationController
     render json: generate_requirements_response(id), status: :ok
   end
 
+  def get_group_of_requirements
+    id = params[:applicantId]
+    render json: group_of_requirements(id), status: :ok
+  end
+
   def generate_requirements_response(id)
       if id == "2"
       return File.read("#{Rails.root}/app/mocks/requirements/requirements.json")
@@ -54,6 +59,24 @@ end
       status: "SuccessSubmission",
       message: "Requirements submitted successfully"
     }, status: :ok
+  end
+
+  def group_of_requirements(id)
+    if id == "3"
+      return File.read("#{Rails.root}/app/mocks/requirements/requirements_group.json")
+    end
+    if id == "4"
+      return File.read("#{Rails.root}/app/mocks/requirements/requirement_hc.json")
+    end
+    if id == "5"
+      return File.read("#{Rails.root}/app/mocks/requirements/requirement_lic.json")
+    end
+    if id == "6"
+      return File.read("#{Rails.root}/app/mocks/requirements/requirement_cert.json")
+    end
+    if id == "7"
+      return File.read("#{Rails.root}/app/mocks/requirements/requirement_uc.json")
+    end
   end
 
 end

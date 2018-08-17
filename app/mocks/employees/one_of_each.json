@@ -77,6 +77,16 @@
       "applicantId": 4
     },
     {
+      "description": "Expired prehire license, please update now",
+      "workplaceName": "Pudre Valley Hospital",
+      "workplaceLogoURL": "file:///android_asset/facility_3.png",
+      "status": "applicant_unmonitored_expired",
+      "messageOwner": "PreHire",
+      "requirementId": 5,
+      "messageId":"5",
+      "applicantId": 4
+    },
+    {
       "description": "License expired, check it out",
       "workplaceName": "PRE-HIRE EMPLOYER",
       "workplaceLogoURL": "file:///android_asset/facility_3.png",
