@@ -17,7 +17,7 @@
     {
       "description": "Expired credential, Please update now",
       "workplaceName": "PRE-HIRE EMPLOYER",
-      "workplaceLogoURL": "file:///android_asset/facility_2.png",
+      "workplaceThumbnailURL": "file:///android_asset/facility_2.png",
       "status": "license_expiring",
       "taskOwner": "ECHR",
       "license": {
@@ -37,7 +37,7 @@
     {
       "description": "Expired credential, Please update now",
       "workplaceName": "PRE-HIRE EMPLOYER",
-      "workplaceLogoURL": "file:///android_asset/facility_3.png",
+      "workplaceThumbnailURL": "file:///android_asset/facility_3.png",
       "status": "heartcard_expired",
       "taskOwner": "ECHR",
       "license": {
@@ -57,7 +57,7 @@
     {
       "description": "Expired credential, Please update now",
       "workplaceName": "PRE-HIRE EMPLOYER",
-      "workplaceLogoURL": "file:///android_asset/facility_2.png",
+      "workplaceThumbnailURL": "file:///android_asset/facility_2.png",
       "status": "heartcard_expired",
       "taskOwner": "ECHR",
       "license": {
@@ -77,7 +77,7 @@
     {
       "description": "Expired credential, Please update now",
       "workplaceName": "PRE-HIRE EMPLOYER",
-      "workplaceLogoURL": "file:///android_asset/facility_3.png",
+      "workplaceThumbnailURL": "file:///android_asset/facility_3.png",
       "status": "license_expired",
       "taskOwner": "ECHR",
       "license": {

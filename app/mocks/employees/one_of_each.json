@@ -15,7 +15,7 @@
     {
       "description": "License in verifycation, checkout for it",
       "workplaceName": "PRE-HIRE EMPLOYER",
-      "workplaceLogoURL": "file:///android_asset/facility_2.png",
+      "workplaceThumbnailURL": "file:///android_asset/facility_2.png",
       "status": "license_expiring",
       "messageId":"1",
       "messageOwner": "ECHR",
@@ -37,7 +37,7 @@
     {
       "description": "Submit your pre-hire application 1",
       "workplaceName": "Pudre Valley Hospital",
-      "workplaceLogoURL": "file:///android_asset/facility_3.png",
+      "workplaceThumbnailURL": "file:///android_asset/facility_3.png",
       "status": "submit",
       "messageOwner": "PreHire",
       "requirementId": 2,
@@ -47,7 +47,7 @@
     {
       "description": "Expired license, Please update now",
       "workplaceName": "PRE-HIRE EMPLOYER",
-      "workplaceLogoURL": "file:///android_asset/facility_2.png",
+      "workplaceThumbnailURL": "file:///android_asset/facility_2.png",
       "status": "heartcard_expired",
       "messageOwner": "ECHR",
       "messageId":"3",
@@ -69,7 +69,7 @@
     {
       "description": "Submit your pre-hire application 2",
       "workplaceName": "Pudre Valley Hospital",
-      "workplaceLogoURL": "file:///android_asset/facility_3.png",
+      "workplaceThumbnailURL": "file:///android_asset/facility_3.png",
       "status": "submit",
       "messageOwner": "PreHire",
       "requirementId": 5,
@@ -79,7 +79,7 @@
     {
       "description": "Submit your pre-hire application 3",
       "workplaceName": "Pudre Valley Hospital",
-      "workplaceLogoURL": "file:///android_asset/facility_3.png",
+      "workplaceThumbnailURL": "file:///android_asset/facility_3.png",
       "status": "submit",
       "messageOwner": "PreHire",
       "requirementId": 8,
@@ -89,7 +89,7 @@
     {
       "description": "Expired prehire license, please update now",
       "workplaceName": "Pudre Valley Hospital",
-      "workplaceLogoURL": "file:///android_asset/facility_3.png",
+      "workplaceThumbnailURL": "file:///android_asset/facility_3.png",
       "status": "applicant_unmonitored_expired",
       "messageOwner": "PreHire",
       "requirementId": 5,
@@ -99,7 +99,7 @@
     {
       "description": "License expired, check it out",
       "workplaceName": "PRE-HIRE EMPLOYER",
-      "workplaceLogoURL": "file:///android_asset/facility_3.png",
+      "workplaceThumbnailURL": "file:///android_asset/facility_3.png",
       "status": "license_expired",
       "messageOwner": "ECHR",
       "messageId":"4",
