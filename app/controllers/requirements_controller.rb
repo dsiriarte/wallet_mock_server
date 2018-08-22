@@ -14,6 +14,9 @@ class RequirementsController < ApplicationController
   def generate_requirements_response(id)
       if id == "2"
       return File.read("#{Rails.root}/app/mocks/requirements/requirements.json")
+    end
+    if id == "8"
+      return File.read("#{Rails.root}/app/mocks/requirements/requirements_completed_2.json")
     else
       return workplaces_json = File.read("#{Rails.root}/app/mocks/requirements/requirements_completed.json")
   end
@@ -76,6 +79,9 @@ end
     end
     if id == "7"
       return File.read("#{Rails.root}/app/mocks/requirements/requirement_uc.json")
+    end
+    if id == "8"
+      return File.read("#{Rails.root}/app/mocks/requirements/requirements_completed_2.json")
     end
   end
 

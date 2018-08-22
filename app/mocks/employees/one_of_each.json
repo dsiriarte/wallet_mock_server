@@ -77,6 +77,16 @@
       "applicantId": 4
     },
     {
+      "description": "Submit your pre-hire application 3",
+      "workplaceName": "Pudre Valley Hospital",
+      "workplaceLogoURL": "file:///android_asset/facility_3.png",
+      "status": "submit",
+      "messageOwner": "PreHire",
+      "requirementId": 8,
+      "messageId":"8",
+      "applicantId": 8
+    },
+    {
       "description": "Expired prehire license, please update now",
       "workplaceName": "Pudre Valley Hospital",
       "workplaceLogoURL": "file:///android_asset/facility_3.png",
