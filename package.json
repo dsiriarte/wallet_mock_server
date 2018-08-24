@@ -1,0 +1,31 @@
+{
+  "name": "wallet_node_mock_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "concat-stream": "^1.6.2",
+    "hapi": "^17.5.3",
+    "hapi-auth-bearer-simple": "^5.0.6",
+    "hapi-auth-bearer-token": "^6.0.1",
+    "hapi-auth-jwt2": "^8.1.0",
+    "hapi-auth-keycloak": "^3.3.1",
+    "hapi-swagger": "^9.1.1",
+    "inert": "^5.1.0",
+    "joi": "^13.6.0",
+    "joi-authorization-header": "^2.0.0",
+    "joi-image-extension": "^1.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "node": "^10.8.0",
+    "q": "^1.5.1",
+    "vision": "^5.3.3",
+    "yar": "^9.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
