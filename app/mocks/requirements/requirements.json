@@ -41,8 +41,8 @@
                 "isTBO": true,
                 "credential": null,
                 "tboDays": 30,
-                "regExp": null,
-                "hint": null
+                "regExp": "^(NURT)?[0-9]+$",
+                "hint": "123 / NURT123"
             }
         ]
     }, {
@@ -58,7 +58,7 @@
                 "credential": null,
                 "tboDays": 30,
                 "regExp": "^[A-Z]{2}[0-9]+$",
-                "hint": null
+                "hint": "AB12345"
             }
         ]
     }
