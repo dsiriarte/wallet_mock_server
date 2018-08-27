@@ -10,8 +10,8 @@
          "requiresCertState":false,
          "isTBO":true,
          "tboDays":30,
-         "regExp":null,
-         "hint":null
+         "regExp":"^(NURT)?[0-9]+$",
+         "hint":"123 / NURT123"
       }
    ]
 }
