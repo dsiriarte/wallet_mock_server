@@ -12,7 +12,7 @@
                 "isTBO": true,
                 "credential": {
                     "licenseNumber": "123456789",
-                    "credentialExpDate" :"01/01/2019",
+                    "expirationDate" :"01/01/2019",
                     "certState": "Alabama",
                     "documentation": {
                         "back":{
@@ -44,7 +44,7 @@
                 "isTBO": true,
                 "credential": {
                     "licenseNumber": "123456789",
-                    "credentialExpDate" :"01/01/2019",
+                    "expirationDate" :"01/01/2019",
                     "certState": "Alabama",
                     "documentation": {
                         "back":{
@@ -76,7 +76,7 @@
                 "isTBO": true,
                 "credential": {
                     "licenseNumber": "123456789",
-                    "credentialExpDate" :"01/01/2019",
+                    "expirationDate" :"01/01/2019",
                     "certState": "Alabama",
                     "documentation": {
                         "back":{
@@ -108,7 +108,7 @@
                 "isTBO": true,
                 "credential": {
                     "licenseNumber": "123456789",
-                    "credentialExpDate" :"01/01/2019",
+                    "expirationDate" :"01/01/2019",
                     "certState": "Alabama",
                     "documentation": {
                         "back":{
