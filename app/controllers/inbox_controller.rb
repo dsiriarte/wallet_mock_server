@@ -9,4 +9,8 @@ class InboxController < ApplicationController
     inbox_json = File.read("#{Rails.root}/app/mocks/inbox/messages.json")
     return inbox_json
   end
+
+  def check_message
+    render json: {}, status: :ok
+  end
 end

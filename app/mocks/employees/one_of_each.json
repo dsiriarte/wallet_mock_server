@@ -38,7 +38,7 @@
       "description": "Submit your pre-hire application 1",
       "workplaceName": "Pudre Valley Hospital",
       "workplaceThumbnailURL": "file:///android_asset/facility_3.png",
-      "status": "submit",
+      "status": "welcome",
       "messageOwner": "PreHire",
       "requirementId": 2,
       "messageId":"2",
