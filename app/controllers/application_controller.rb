@@ -14,7 +14,8 @@ class ApplicationController < ActionController::API
       'one_verifying_no_board',
       'validuser',
       'applicant_user',
-      'one_unverified' 
+      'one_unverified',
+      'one_tbo'
     ]
   end
 
