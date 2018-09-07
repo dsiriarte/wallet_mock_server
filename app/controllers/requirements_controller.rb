@@ -52,6 +52,13 @@ end
 
   def tbo
     render json: {
+      statusCode: 200,
+      message: "Requirement reseted successfully"
+  }, status: :ok
+  end
+
+  def delete_tbo
+    render json: {
       status: "SuccessSubmission",
       message: "Requirement marked as tbo successfully"
     }, status: :ok

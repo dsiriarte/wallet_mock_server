@@ -29,5 +29,6 @@ Rails.application.routes.draw do
   post '/applicants/:applicantId/requirements/:requirementId/tbo', to: 'requirements#tbo'
   put '/applicants/:applicantId/requirements/submit', to: 'requirements#submit'
   get '/applicants/:applicantId/requirements/:requirementId/group', to: 'requirements#get_group_of_requirements'
+  post '/applicants/:applicantId/requirements/:requirementId', to: 'requirements#delete_tbo'
   put '/messages/:id', to: 'inbox#check_message'
 end
