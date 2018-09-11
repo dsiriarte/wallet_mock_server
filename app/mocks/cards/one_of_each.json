@@ -81,7 +81,7 @@
     "expirationStatus": "expiring",
     "expirationDate": "2017-10-10T00:00:00.000Z",
     "verificationDate": "2017-10-10T00:00:00.000Z",
-    "verificationStatus": "current",
+    "verificationStatus": "failed",
     "applicantId": 4,
     "requirementId": 4,
     "imageURL": "http://localhost:3000/images/heart_card.jpg",
