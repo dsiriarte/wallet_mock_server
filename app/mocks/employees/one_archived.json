@@ -1,11 +1,12 @@
 {
   "id": 1,
-  "firstName": "Applicant",
+  "firstName": "John",
   "middleName": "",
-  "lastName": "User",
-  "fullName": "Applicant User",
+  "lastName": "Doe",
+  "fullName": "John Doe",
   "number": "1234",
   "email": "Doe@mail.com",
+  "accountId": 4,
   "role": "employee",
   "employer": {
     "id": 123,

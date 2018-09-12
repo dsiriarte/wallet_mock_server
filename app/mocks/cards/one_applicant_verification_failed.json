@@ -1,0 +1,33 @@
+[
+  {
+    "licenseId": "375",
+    "licenseType": "APPLICANT_HC",
+    "licenseNumber": null,
+    "professionName": "applicant HC",
+    "active": true,
+    "applicantId": 5,
+    "requirementId": 5,
+    "expirationStatus": "current",
+    "expirationDate": "2017-10-10T00:00:00.000Z",
+    "verificationDate": "2017-10-10T00:00:00.000Z",
+    "verificationStatus": "failed",
+    "imageURL": "http://localhost:3000/images/heart_card.jpg",
+    "documentation":{
+          "front":{
+          "description":"Front",
+          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
+          "fileType":null
+             },
+            "back":{
+          "description":"Back",
+          "url":"https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44",
+          "fileType":null
+             }
+        },
+    "boardName": "American Heart Association",
+    "daysToExpire": -323,
+    "tboDays": null,
+    "removable": false,
+    "fileType": "PNG"
+  }
+]
