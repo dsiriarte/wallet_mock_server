@@ -6,7 +6,7 @@
   "fullName": "Applicant User",
   "number": "1234",
   "email": "Doe@mail.com",
-  "role": "applicant",
+  "role": "employee",
   "employer": {
     "id": 123,
     "name": "Sample employer",
