@@ -8,6 +8,7 @@
   "accountId": 1,
   "email": "Doe@mail.com",
   "role": "employee",
+  "roles": ["employee"],
   "employer": {
     "id": 123,
     "name": "Sample employer",
