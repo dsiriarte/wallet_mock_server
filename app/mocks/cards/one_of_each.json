@@ -365,7 +365,7 @@
     "expirationStatus": "current",
     "expirationDate": "2017-10-10T00:00:00.000Z",
     "verificationDate": "2017-10-10T00:00:00.000Z",
-    "verificationStatus": "verified",
+    "verificationStatus": "TBO",
     "imageURL": "http://localhost:3000/images/heart_card.jpg",
     "documentation":{
           "front":{
