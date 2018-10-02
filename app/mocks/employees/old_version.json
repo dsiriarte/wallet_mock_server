@@ -1,0 +1,31 @@
+{
+  "id": 1,
+  "firstName": "John",
+  "middleName": "",
+  "lastName": "Doe",
+  "fullName": "John Doe",
+  "number": "1234",
+  "email": "Doe@mail.com",
+  "accountId": 2,
+  "role": "employee",
+  "roles": ["employee"],
+  "employer": {
+    "id": 123,
+    "name": "Sample employer",
+    "logoUrl": "http://i.imgur.com/U8atCPi.png"
+  },
+  "messages": [],
+  "profile": {
+    "credentials": false,
+    "removeLicense": false
+  },
+  "notifications": {
+    "activeExpiration": true,
+    "activeVerification": true
+  },
+  "appVersion": {
+"hasToForce" :true,
+"iOSVersion" :"2.0.1",
+"androidVersion" :"2.0.1 (43) - DEMO"
+  }
+}

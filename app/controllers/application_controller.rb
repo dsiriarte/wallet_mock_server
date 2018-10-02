@@ -17,7 +17,8 @@ class ApplicationController < ActionController::API
       'one_unverified',
       'one_tbo',
       'one_archived',
-      'one_applicant_verification_failed'
+      'one_applicant_verification_failed',
+      'old_version'
     ]
   end
 
