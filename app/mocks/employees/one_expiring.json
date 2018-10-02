@@ -7,8 +7,8 @@
   "number": "1234",
   "email": "Doe@mail.com",
   "accountId": 6,
-  "role": "employee",
-  "roles": ["employee"],
+  "role": "provider",
+  "roles": ["provider"],
   "employer": {
     "id": 123,
     "name": "Sample employer",
