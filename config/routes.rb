@@ -31,4 +31,5 @@ Rails.application.routes.draw do
   get '/applicants/:applicantId/requirements/:requirementId/group', to: 'requirements#get_group_of_requirements'
   delete '/applicants/:applicantId/requirements/:requirementId', to: 'requirements#delete_tbo'
   put '/messages/:id', to: 'inbox#check_message'
+  get '/states', to: 'states#get_states'
 end
