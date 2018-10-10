@@ -46,7 +46,7 @@
     "fileType": "PNG"
   },
   {
-    "licenseId": "224",
+    "licenseId": 224,
     "licenseType": "APPLICANT_HC",
     "licenseNumber": null,
     "professionName": "Prehire or",
@@ -73,7 +73,7 @@
     "fileType": "PNG"
   },
   {
-    "licenseId": "224",
+    "licenseId": 224,
     "licenseType": "APPLICANT_HC",
     "licenseNumber": null,
     "professionName": "Prehire hc",
@@ -100,7 +100,7 @@
     "fileType": "PNG"
   },
   {
-    "licenseId": "225",
+    "licenseId": 225,
     "licenseType": "APPLICANT_LIC",
     "licenseNumber": null,
     "professionName": "Prehire license",
@@ -127,7 +127,7 @@
     "fileType": "PNG"
   },
   {
-    "licenseId": "226",
+    "licenseId": 226,
     "licenseType": "APPLICANT_CERT",
     "licenseNumber": null,
     "professionName": "Prehire certification",
@@ -154,7 +154,7 @@
     "fileType": "PNG"
   },
   {
-    "licenseId": "227",
+    "licenseId": 227,
     "licenseType": "APPLICANT_UC",
     "licenseNumber": null,
     "professionName": "Prehire unmonitored",
@@ -355,7 +355,7 @@
     "fileType": "PNG"
   },
   {
-    "licenseId": "375",
+    "licenseId": 375,
     "licenseType": "APPLICANT_HC",
     "licenseNumber": null,
     "professionName": "Registered Respiratory Therapist LIC",
