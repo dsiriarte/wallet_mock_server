@@ -1,11 +1,7 @@
 class CardsController < ApplicationController
   before_action :authenticate!, only: [:get_user_cards, :get_employee]
   def get_user_cards
-    if current_user == 'applicant_user'
-        render json: insufficient_permission_response, status: :forbidden
-    else
         render json: generate_card_response(current_user), status: :ok
-    end
   end
 
   def get_employee

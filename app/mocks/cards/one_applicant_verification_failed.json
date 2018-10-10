@@ -1,14 +1,16 @@
 [
   {
-    "licenseId": 123,
-    "licenseType": "EMPLOYEE_HC",
+    "licenseId": "375",
+    "licenseType": "APPLICANT_HC",
     "licenseNumber": null,
-    "professionName": "Registered Respiratory Therapist",
+    "professionName": "applicant HC",
     "active": true,
-    "expirationStatus": "expiring",
-    "expirationDate": "2018-06-27T00:00:00.000Z",
-    "verificationDate": "2018-05-27T00:00:00.000Z",
-    "verificationStatus": "successful",
+    "applicantId": 5,
+    "requirementId": 5,
+    "expirationStatus": "current",
+    "expirationDate": "2017-10-10T00:00:00.000Z",
+    "verificationDate": "2017-10-10T00:00:00.000Z",
+    "verificationStatus": "failed",
     "imageURL": "http://localhost:3000/images/heart_card.jpg",
     "documentation":{
           "front":{

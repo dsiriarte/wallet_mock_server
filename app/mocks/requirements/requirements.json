@@ -1,0 +1,66 @@
+{
+    "status": "submit",
+    "data": [{
+        "requirements": [
+            {
+                "id": 2756,
+                "boardName": "California Board of Registered Nursing",
+                "boardUrl": "https://www.breeze.ca.gov/datamart/loginCADCA.do",
+                "professionName": "Unmonitored",
+                "status": "submit",
+                "type": "APPLICANT_UC",
+                "isTBO": true,
+                "credential": null,
+                "tboDays": 30,
+                "regExp": null,
+                "hint": null
+            },
+            {
+                "id": 2757,
+                "boardName": "Alabama Board of Nursing",
+                "boardUrl": "https://abn.alabama.gov/applications/LicenseLookup.aspx",
+                "professionName": "Heartcard",
+                "status": "submit",
+                "type": "APPLICANT_HC",
+                "isTBO": true,
+                "credential": null,
+                "tboDays": 30,
+                "regExp": "^1-[0-9]{6}$",
+                "hint": "1-012345"
+            }
+        ]
+    },{
+        "requirements": [
+            {
+                "id": 2758,
+                "boardName": "American Heart Association",
+                "boardUrl": "https://abn.alabama.gov/applications/LicenseLookup.aspx",
+                "professionName": "License prehire",
+                "status": "submit",
+                "type": "APPLICANT_LIC",
+                "isTBO": true,
+                "credential": null,
+                "tboDays": 30,
+                "regExp": "^(NURT)?[0-9]+$",
+                "hint": "123 / NURT123"
+            }
+        ]
+    }, {
+        "requirements": [
+            {
+                "id": 2760,
+                "boardName": "Drug Enforcement Administration",
+                "boardUrl": "https://www.deanumber.com/Library/InfoManage/Guide.asp",
+                "professionName": "Certification",
+                "status": "submit",
+                "type": "APPLICANT_CERT",
+                "isTBO": true,
+                "credential": null,
+                "tboDays": 30,
+                "regExp": "^[A-Z]{2}[0-9]+$",
+                "hint": "AB12345"
+            }
+        ]
+    }
+    ]
+}

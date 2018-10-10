@@ -7,6 +7,8 @@
   "number": "1234",
   "email": "Doe@mail.com",
   "accountId": 2,
+  "role": "employee",
+  "roles": ["employee"],
   "employer": {
     "id": 123,
     "name": "Sample employer",
@@ -16,7 +18,7 @@
     {
       "description": "Expired credential, Please update now",
       "workplaceName": "PRE-HIRE EMPLOYER",
-      "workplaceLogoURL": "file:///android_asset/facility_2.png",
+      "workplaceThumbnailURL": "file:///android_asset/facility_2.png",
       "status": "license_expiring",
       "taskOwner": "ECHR",
       "license": {
@@ -36,7 +38,7 @@
     {
       "description": "Expired credential, Please update now",
       "workplaceName": "PRE-HIRE EMPLOYER",
-      "workplaceLogoURL": "file:///android_asset/facility_3.png",
+      "workplaceThumbnailURL": "file:///android_asset/facility_3.png",
       "status": "heartcard_expired",
       "taskOwner": "ECHR",
       "license": {
@@ -56,7 +58,7 @@
     {
       "description": "Expired credential, Please update now",
       "workplaceName": "PRE-HIRE EMPLOYER",
-      "workplaceLogoURL": "file:///android_asset/facility_2.png",
+      "workplaceThumbnailURL": "file:///android_asset/facility_2.png",
       "status": "heartcard_expired",
       "taskOwner": "ECHR",
       "license": {
@@ -76,7 +78,7 @@
     {
       "description": "Expired credential, Please update now",
       "workplaceName": "PRE-HIRE EMPLOYER",
-      "workplaceLogoURL": "file:///android_asset/facility_3.png",
+      "workplaceThumbnailURL": "file:///android_asset/facility_3.png",
       "status": "license_expired",
       "taskOwner": "ECHR",
       "license": {

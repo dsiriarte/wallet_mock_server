@@ -1,0 +1,30 @@
+{  
+   "requirements":[  
+       {  
+         "id":2756,
+         "boardName":"California Board of Registered Nursing",
+         "boardUrl":"https://www.breeze.ca.gov/datamart/loginCADCA.do",
+         "professionName":"Registered Nurse California",
+         "status":"completed",
+         "type":"APPLICANT_CERT",
+         "requiresCertState":false,
+         "isTBO":true,
+         "tboDays":30,
+         "regExp":null,
+         "hint":null
+      },
+      {  
+         "id":2757,
+         "boardName":"California Board of Registered Nursing",
+         "boardUrl":"https://www.breeze.ca.gov/datamart/loginCADCA.do",
+         "professionName":"Registered Nurse California",
+         "status":"completed",
+         "type":"APPLICANT_CERT",
+         "requiresCertState":false,
+         "isTBO":true,
+         "tboDays":30,
+         "regExp":null,
+         "hint":null
+      }
+   ]
+}

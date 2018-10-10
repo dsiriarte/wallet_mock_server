@@ -22,5 +22,10 @@
   "notifications": {
     "activeExpiration": true,
     "activeVerification": true
+  },
+  "appVersion": {
+"hasToForce" :true,
+"iOSVersion" :"2.0.1",
+"androidVersion" :"2.0.1 (43) - DEMO"
   }
 }

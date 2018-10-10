@@ -7,6 +7,8 @@
   "number": "1234",
   "email": "Doe@mail.com",
   "accountId": 6,
+  "role": "provider",
+  "roles": ["provider"],
   "employer": {
     "id": 123,
     "name": "Sample employer",
@@ -16,7 +18,7 @@
     {
       "description": "Submit your credentials",
       "workplaceName": "Pudre Valley Hospital",
-      "workplaceLogoURL": "file:///android_asset/facility_1.png",
+      "workplaceThumbnailURL": "file:///android_asset/facility_1.png",
       "status": "credential",
       "taskOwner": "credentials",
       "requirements": [
@@ -50,7 +52,7 @@
     {
       "description": "Expired credential, Please update now",
       "workplaceName": "PRE-HIRE EMPLOYER",
-      "workplaceLogoURL": "file:///android_asset/facility_2.png",
+      "workplaceThumbnailURL": "file:///android_asset/facility_2.png",
       "status": "license_expiring",
       "taskOwner": "ECHR",
       "license": {
