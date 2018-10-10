@@ -1,6 +1,6 @@
 [
   {
-    "licenseId": "123",
+    "licenseId": 123,
     "licenseType": "EMPLOYEE_HC",
     "licenseNumber": null,
     "professionName": "Registered Respiratory Therapist",

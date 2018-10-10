@@ -1,6 +1,6 @@
 [
   {
-    "licenseId": "345",
+    "licenseId": 355,
     "licenseType": "EMPLOYEE_HC",
     "licenseNumber": null,
     "professionName": "Registered Respiratory Therapist",
@@ -17,7 +17,7 @@
     "fileType": "PNG"
   },
   {
-    "licenseId": "124",
+    "licenseId": 124,
     "licenseType": "EMPLOYEE_HC",
     "licenseNumber": null,
     "professionName": "Registered Respiratory Therapist",
@@ -34,7 +34,7 @@
     "fileType": "PNG"
   },
   {
-    "licenseId": "125",
+    "licenseId": 125,
     "licenseType": "EMPLOYEE_UC",
     "licenseNumber": null,
     "professionName": "Registered Respiratory Therapist",
@@ -51,7 +51,7 @@
     "fileType": "PNG"
   },
   {
-    "licenseId": "123",
+    "licenseId": 123,
     "licenseType": "EMPLOYEE_HC",
     "licenseNumber": null,
     "professionName": "Registered Respiratory Therapist",
@@ -68,7 +68,7 @@
     "fileType": "PNG"
   },
   {
-    "licenseId": "901",
+    "licenseId": 901,
     "licenseType": "EMPLOYEE_HC",
     "licenseNumber": null,
     "professionName": "Registered Respiratory Therapist",
@@ -85,7 +85,7 @@
     "fileType": "PDF"
   },
   {
-    "licenseId": "999",
+    "licenseId": 999,
     "licenseType": "EMPLOYEE_HC",
     "licenseNumber": null,
     "professionName": "Registered Respiratory Therapist",
@@ -100,7 +100,7 @@
     "fileType": "PNG"
   },
   {
-    "licenseId": "998",
+    "licenseId": 998,
     "licenseType": "EMPLOYEE_HC",
     "licenseNumber": null,
     "professionName": "Registered Respiratory Therapist1",
@@ -115,7 +115,7 @@
     "fileType": "PNG"
   },
   {
-    "licenseId": "375",
+    "licenseId": 375,
     "licenseType": "EMPLOYEE_LIC",
     "licenseNumber": null,
     "professionName": "Registered Respiratory Therapist LIC",
