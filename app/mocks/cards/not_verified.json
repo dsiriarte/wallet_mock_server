@@ -1,6 +1,7 @@
 [
   {
-    "licenseId": 23,    "licenseType": "ACLS",
+    "licenseId": 23,   
+    "licenseType": "ACLS",
     "licenseNumber": null,
     "professionName": "BLS 1",
     "active": true,

@@ -33,4 +33,5 @@ Rails.application.routes.draw do
   put '/messages/:id', to: 'inbox#check_message'
   get '/states', to: 'states#get_states'
   get '/providerLicenses/:providerId', to: 'provider#get_provider_licenses'
+  get '/boardCertifications', to: 'provider#get_board_certifications'
 end

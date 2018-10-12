@@ -21,6 +21,7 @@
       "workplaceThumbnailURL": "file:///android_asset/facility_1.png",
       "status": "credential",
       "taskOwner": "credentials",
+      "messageId":"5",
       "requirements": [
         {
           "boardId": 17,
@@ -54,6 +55,7 @@
       "workplaceName": "PRE-HIRE EMPLOYER",
       "workplaceThumbnailURL": "file:///android_asset/facility_2.png",
       "status": "license_expiring",
+      "messageId":"6",
       "taskOwner": "ECHR",
       "license": {
         "licenseId": 123,
@@ -61,7 +63,7 @@
         "professionName": "Registered Respiratory Therapist",
         "verificationStatus": "verified",
         "expirationStatus": "expiring",
-        "expirationDate": "2017-16-17T00:00:00.000Z",
+        "expirationDate": "2017-10-10T00:00:00.000Z",
         "boardName": "American Heart Association",
         "imageURL": "http://test.storages3.evercheck.com:3000/evercheck/24ddaa64-820c-4fb3-bfa8-4588f6cd0f77",
         "daysToExpire": -260,

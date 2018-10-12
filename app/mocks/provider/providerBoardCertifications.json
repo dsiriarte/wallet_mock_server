@@ -1,0 +1,21 @@
+{
+   "_id" : "5bbe3f1e5c965d37f9640797",
+   "documents" : [
+       {
+           "name" : "Captura de pantalla de 2018-08-13 08-28-22.png",
+           "type" : "image/png",
+           "size" : 123,
+           "blob_id" : "0c869ef8-ec75-4ec4-b9a2-db04b32ee43d"
+       }
+   ],
+   "specialty" : "212112",
+   "certifyingBoardName" : "21",
+   "issueDate" : "2018-07-29T00:00:00.000Z",
+   "recertificationDate" : "2018-08-01T00:00:00.000Z",
+   "expirationDate" : "2018-09-01T00:00:00.000Z",
+   "certificateNumber" : "22121",
+   "status" : "Active",
+   "providerTVId" : "0c4920b6-7115-4f10-8b46-ac6069c97708",
+   "employerId" : 372,
+   "__v" : 0
+}
