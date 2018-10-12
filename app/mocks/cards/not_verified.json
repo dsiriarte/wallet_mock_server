@@ -1,7 +1,6 @@
 [
   {
-    "licenseId": "123",
-    "licenseType": "ACLS",
+    "licenseId": 23,    "licenseType": "ACLS",
     "licenseNumber": null,
     "professionName": "BLS 1",
     "active": true,
@@ -17,7 +16,7 @@
     "fileType": "PNG"
   },
   {
-    "licenseId": "345",
+    "licenseId": 345,
     "licenseType": "ACLS",
     "licenseNumber": null,
     "professionName": "BLS 2",
@@ -34,7 +33,7 @@
     "fileType": "PNG"
   },
   {
-    "licenseId": "678",
+    "licenseId": 678,
     "licenseType": "ACLS",
     "licenseNumber": null,
     "professionName": "BLS 3",
@@ -51,7 +50,7 @@
     "fileType": "PNG"
   },
   {
-    "licenseId": "911",
+    "licenseId": 911,
     "licenseType": "ACLS",
     "licenseNumber": null,
     "professionName": "BLS 4",
