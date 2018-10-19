@@ -1,8 +1,8 @@
-class BoardCertificationController < ApplicationController
+class BoardCertificationsController < ApplicationController
   before_action :authenticate!, only: [:get_inbox_items]
 
   def get_board_certifications
-    render json: generate_workplaces_response, status: :ok
+    render json: generate_board_certifications_response, status: :ok
   end
 
   def generate_board_certifications_response

@@ -1,21 +1,42 @@
 {
-   "_id" : "5bbe3f1e5c965d37f9640797",
-   "documents" : [
-       {
-           "name" : "Captura de pantalla de 2018-08-13 08-28-22.png",
-           "type" : "image/png",
-           "size" : 123,
-           "blob_id" : "0c869ef8-ec75-4ec4-b9a2-db04b32ee43d"
-       }
-   ],
-   "specialty" : "212112",
-   "certifyingBoardName" : "21",
-   "issueDate" : "2018-07-29T00:00:00.000Z",
-   "recertificationDate" : "2018-08-01T00:00:00.000Z",
-   "expirationDate" : "2018-09-01T00:00:00.000Z",
-   "certificateNumber" : "22121",
-   "status" : "Active",
-   "providerTVId" : "0c4920b6-7115-4f10-8b46-ac6069c97708",
-   "employerId" : 372,
-   "__v" : 0
+    "items": [
+        {
+            "documents": [
+                {
+                    "name": "Captura de pantalla de 2018-08-13 08-28-22.png",
+                    "type": "image/png",
+                    "size": 123,
+                    "blob_id": "0c869ef8-ec75-4ec4-b9a2-db04b32ee43d"
+                }
+            ],
+            "_id": "5b806acaa14c8c240e0867b3",
+            "specialty": "212112",
+            "certifyingBoardName": "21",
+            "issueDate": "2018-07-29T00:00:00.000Z",
+            "recertificationDate": "2018-08-01T00:00:00.000Z",
+            "expirationDate": "2018-09-01T00:00:00.000Z",
+            "certificateNumber": "22121",
+            "status": "Active",
+            "providerTVId": "716515e5-fcc4-47fb-afe9-5678fd32bab6",
+            "employerId": 372,
+            "__v": 1
+        },
+        {
+            "documents": [],
+            "_id": "5b7dc9f8e643fa3c9f28a939",
+            "certificateNumber": "2212",
+            "specialty": "5b68b7a264455a0fa323fab0",
+            "certifyingBoardName": "2112",
+            "issueDate": "2018-08-09T00:00:00.000Z",
+            "recertificationDate": null,
+            "expirationDate": "2018-09-01T00:00:00.000Z",
+            "status": "Active",
+            "providerTVId": "716515e5-fcc4-47fb-afe9-5678fd32bab6",
+            "employerId": 372,
+            "__v": 0
+        }
+    ],
+    "size": 2,
+    "offset": "",
+    "limit": ""
 }
