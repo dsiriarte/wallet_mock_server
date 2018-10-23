@@ -5,10 +5,17 @@ class BoardCertificationsController < ApplicationController
     render json: generate_board_certifications_response, status: :ok
   end
 
-  def delete_board_certification
+  def save_provider_licenses
   	render json: {
       status: "SuccessSubmission",
       message: "The submission was received, a notification will be sent when it's completed"
+    }, status: :ok
+    end
+
+  def delete_board_certification
+  	render json: {
+      status: "DeleteSuccess",
+      message: "was deletec"
     }, status: :ok
   end
 

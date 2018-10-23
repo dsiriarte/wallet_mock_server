@@ -12,6 +12,13 @@ class ProviderController < ApplicationController
     }, status: :ok
     end
 
+	def delete_provider_licenses
+		render json: {
+	  status: "deleteSuccess",
+	  message: "was deleted"
+	}, status: :ok
+	end
+
   def generate_provider_licenses_response
     workplaces_json = File.read("#{Rails.root}/app/mocks/provider/providerLicenses.json")
     return workplaces_json
