@@ -64,7 +64,7 @@
     "label": "TAKE_ACTION",
     "documents": [],
     "_id": "5aa76f3381061002959212eb",
-    "primary": true
+    "primary": false
 },
 {
     "licenseId": 2643001,
@@ -86,7 +86,7 @@
     "label": "TAKE_ACTION",
     "documents": [],
     "_id": "5aa76f3381061002959212eb",
-    "primary": true
+    "primary": false
 },
 {
     "licenseId": 2643001,
@@ -108,7 +108,7 @@
     "label": "TAKE_ACTION",
     "documents": [],
     "_id": "5aa76f3381061002959212eb",
-    "primary": true
+    "primary": false
 },
 {
     "licenseId": 2643001,
@@ -130,7 +130,7 @@
     "label": "TAKE_ACTION",
     "documents": [],
     "_id": "5aa76f3381061002959212eb",
-    "primary": true
+    "primary": false
 },
 {
     "licenseId": 2643001,
@@ -152,7 +152,7 @@
     "label": "TAKE_ACTION",
     "documents": [],
     "_id": "5aa76f3381061002959212eb",
-    "primary": true
+    "primary": false
 },
 {
     "licenseId": 2643001,
@@ -174,7 +174,7 @@
     "label": "TAKE_ACTION",
     "documents": [],
     "_id": "5aa76f3381061002959212eb",
-    "primary": true
+    "primary": false
 },
 {
     "licenseId": 2643001,
@@ -196,7 +196,7 @@
     "label": "TAKE_ACTION",
     "documents": [],
     "_id": "5aa76f3381061002959212eb",
-    "primary": true
+    "primary": false
 },
 {
     "licenseId": 2643001,
@@ -218,6 +218,6 @@
     "label": "TAKE_ACTION",
     "documents": [],
     "_id": "5aa76f3381061002959212eb",
-    "primary": true
+    "primary": false
 }
 ]
