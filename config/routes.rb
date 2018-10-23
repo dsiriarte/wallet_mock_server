@@ -32,7 +32,8 @@ Rails.application.routes.draw do
   delete '/applicants/:applicantId/requirements/:requirementId', to: 'requirements#delete_tbo'
   put '/messages/:id', to: 'inbox#check_message'
   get '/states', to: 'states#get_states'
-  get '/providerLicenses/:id', to: 'provider#get_provider_licenses'
+  get '/mdeicalLicenses', to: 'provider#get_provider_licenses'
+  post 'mdeicalLicenses', to: 'provider#save_provider_licenses'
   get '/boardCertifications', to: 'board_certifications#get_board_certifications'
   delete '/boardCertifications/:id', to: 'board_certifications#delete_board_certification'
 end
