@@ -76,7 +76,7 @@ end
       return File.read("#{Rails.root}/app/mocks/requirements/requirements_group.json")
     end
     if id == "4"
-      return File.read("#{Rails.root}/app/mocks/requirements/requirement_hc.json")
+      return File.read("#{Rails.root}/app/mocks/requirements/requirement_uc.json")
     end
     if id == "5"
       return File.read("#{Rails.root}/app/mocks/requirements/requirement_lic.json")
