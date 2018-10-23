@@ -1,0 +1,17 @@
+{
+    "items": [
+        {
+            "createdAt": "2018-10-23T22:24:52.176Z",
+            "updatedAt": "2018-10-23T22:24:52.176Z",
+            "_id": "5bc76291722db8226d124293",
+            "name": "Allergy & Inmunology"
+        },
+        {
+            "createdAt": "2018-10-23T22:24:52.177Z",
+            "updatedAt": "2018-10-23T22:24:52.177Z",
+            "_id": "5bc7624b722db8226d124292",
+            "name": "Cardiology"
+        }
+    ],
+    "size": 2
+}

@@ -34,9 +34,11 @@ Rails.application.routes.draw do
   get '/states', to: 'states#get_states'
   get '/medicalLicenses', to: 'provider#get_provider_licenses'
   post '/medicalLicenses', to: 'provider#save_provider_licenses'
-  put '/medicalLicenses/:id', to: 'provider#save_provider_licenses'
+  post '/medicalLicenses/:id', to: 'provider#save_provider_licenses'
   delete '/medicalLicenses/:id', to: 'provider#delete_provider_licenses'
   get '/boardCertifications', to: 'board_certifications#get_board_certifications'
+  post '/boardCertifications', to: 'board_certifications#save_board_certifications'
   post '/boardCertifications/:id', to: 'board_certifications#save_board_certifications'
   delete '/boardCertifications/:id', to: 'board_certifications#delete_board_certification'
+  get '/globalsettings/specialties', to: 'specialties#get_specialties'
 end
