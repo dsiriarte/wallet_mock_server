@@ -32,7 +32,7 @@ Rails.application.routes.draw do
   delete '/applicants/:applicantId/requirements/:requirementId', to: 'requirements#delete_tbo'
   put '/messages/:id', to: 'inbox#check_message'
   get '/states', to: 'states#get_states'
-  get '/mdeicalLicenses', to: 'provider#get_provider_licenses'
+  get '/medicalLicenses', to: 'provider#get_provider_licenses'
   post '/medicalLicenses/:id', to: 'provider#save_provider_licenses'
   delete '/medicalLicenses/:id', to: 'provider#delete_provider_licenses'
   get '/boardCertifications', to: 'board_certifications#get_board_certifications'
