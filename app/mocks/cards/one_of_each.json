@@ -381,7 +381,7 @@
         },
     "boardName": "American Heart Association",
     "daysToExpire": -323,
-    "tboDays": "60",
+    "tboDays": 60,
     "removable": false,
     "fileType": "PNG"
   }
