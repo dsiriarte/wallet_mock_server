@@ -5,8 +5,8 @@ class SpecialtiesController < ApplicationController
     render json: generate_specialties_response, status: :ok
   end
 
-  def generate_workplaces_response
-    workplaces_json = File.read("#{Rails.root}/app/mocks/specialties/specialties.json")
-    return workplaces_json
+  def generate_specialties_response
+    specialties_json = File.read("#{Rails.root}/app/mocks/specialties/specialties.json")
+    return specialties_json
       end
 end
