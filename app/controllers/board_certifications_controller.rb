@@ -5,7 +5,7 @@ class BoardCertificationsController < ApplicationController
     render json: generate_board_certifications_response, status: :ok
   end
 
-  def save_provider_licenses
+  def save_board_certifications
   	render json: {
       status: "SuccessSubmission",
       message: "The submission was received, a notification will be sent when it's completed"
