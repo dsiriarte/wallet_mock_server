@@ -23,9 +23,9 @@
     "activeExpiration": true,
     "activeVerification": true
   },
-  "appVersion": {
+  "mobileVersion": {
 "hasToForce" :true,
 "iOSVersion" :"2.0.50",
-"androidVersion" :"2.0.1 (43) - DEMO"
+"androidVersion" :"2.0.8 - DEMO"
   }
 }

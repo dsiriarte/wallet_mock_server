@@ -128,6 +128,40 @@
                 "hint": null
             }
         ]
+    },
+    {
+        "requirements": [
+            {
+                "id": 2760,
+                "boardName": "Drug Enforcement Administration",
+                "boardUrl": "https://www.deanumber.com/Library/InfoManage/Guide.asp",
+                "professionName": "Certification",
+                "status": "completed",
+                "type": "APPLICANT_CERT",
+                "isTBO": true,
+                "credential": {
+                    "licenseNumber": "123456789",
+                    "expirationDate" :"01/01/2019",
+                    "certState": "Alabama",
+                    "markedAsTbo": true,
+                    "documentation": {
+                        "back":{
+                            "description": "desc",
+                            "fileType": "png",
+                            "url": "https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44"
+                        },
+                        "front": {
+                            "description": "desc",
+                            "fileType": "png",
+                            "url": "https://test.storages3.evercheck.com/evercheck/587486e7-630d-4f71-bfa8-5cc994004d44"
+                        }
+                    }
+                },
+                "tboDays": 30,
+                "regExp": "^[A-Z]{2}[0-9]+$",
+                "hint": null
+            }
+        ]
     }
     ]
 }
