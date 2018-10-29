@@ -1,0 +1,46 @@
+{
+    "items": [
+      {
+   "_id" : "5b8159cf8d68c41fe41a9b4f",
+   "primary" : false,
+   "locationPhoneExtra" : "",
+   "locationFax" : "",
+   "managerSameAsPrimary" : false,
+   "managerName" : "2112",
+   "managerPhone" : "2121212121",
+   "correspondenceSameAsPrimary" : false,
+   "correspondenceAddressSameAsLocation" : true,
+   "correspondencePhone" : "2121212121",
+   "correspondenceFax" : "2121122121",
+   "contactSameAsPrimary" : false,
+   "contactAddressSameAsLocation" : true,
+   "contactName" : "2121",
+   "contactPhone" : "2121212121",
+   "contactFax" : "",
+   "contactEmail" : "",
+   "locationName" : "1212",
+   "locationAddress" : {
+       "address" : "2112",
+       "addressComplement" : "2112",
+       "city" : "21",
+       "state" : 4,
+       "zipCode" : "21221"
+   },
+   "locationPhone" : "1221211221",
+   "taxId" : "2112",
+   "groupNPI" : "1221",
+   "correspondenceAddress" : {
+       "address" : "21"
+   },
+   "providerTVId" : "716515e5-fcc4-47fb-afe9-5678fd32bab6",
+   "employerId" : 372,
+   "__v" : 0,
+   "archived" : false,
+   "archivedAt" : "2012-12-12T05:00:00.000Z",
+   "contactAddress" : {}
+}
+],
+    "size": 1,
+    "offset": "",
+    "limit": ""
+}
