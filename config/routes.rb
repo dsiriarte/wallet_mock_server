@@ -42,4 +42,7 @@ Rails.application.routes.draw do
   delete '/boardCertifications/:id', to: 'board_certifications#delete_board_certification'
   get '/globalsettings/specialties', to: 'specialties#get_specialties'
   get '/practiceLocations', to: 'practice_locations#get_practice_locations'
+  post '/practiceLocations', to: 'practice_locations#save_practice_locations'
+  post '/practiceLocations/:id', to: 'practice_locations#save_practice_locations'
+  delete '/practiceLocations/:id', to: 'practice_locations#delete_practice_locations'
 end
