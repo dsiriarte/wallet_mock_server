@@ -1,0 +1,646 @@
+{
+    "specialties": {
+        "items": [
+            {
+                "updatedAt": "2018-11-13T02:25:40.443Z",
+                "_id": "5bdb1f7d2989c62fa25ee4d9",
+                "name": "Adolescent Medicine",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:45:01.651Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.443Z",
+                "_id": "5bdb21046f04618fc5b9bec5",
+                "name": "Adolescent Medicine",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.443Z",
+                "_id": "5bdb21046f04618fc5b9bec6",
+                "name": "Allergy & Immunology",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "createdAt": "2018-11-13T02:25:40.443Z",
+                "updatedAt": "2018-11-13T02:25:40.443Z",
+                "_id": "5bc76291722db8226d124293",
+                "name": "Allergy & Inmunology"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.443Z",
+                "_id": "5bdb21046f04618fc5b9bec7",
+                "name": "Anesthesiology",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "createdAt": "2018-11-13T02:25:40.443Z",
+                "updatedAt": "2018-11-13T02:25:40.443Z",
+                "_id": "5bc7624b722db8226d124292",
+                "name": "Cardiology"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.443Z",
+                "_id": "5bdb21046f04618fc5b9bec8",
+                "name": "Cardiology",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.443Z",
+                "_id": "5bdb21046f04618fc5b9bec9",
+                "name": "Cardiothoracic Surgery",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.443Z",
+                "_id": "5bdb21046f04618fc5b9beca",
+                "name": "Critical Care Medicine",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.444Z",
+                "_id": "5bdb21046f04618fc5b9becb",
+                "name": "Dermatology",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.444Z",
+                "_id": "5bdb21046f04618fc5b9becc",
+                "name": "Emergency Medicine",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.444Z",
+                "_id": "5bdb21046f04618fc5b9becd",
+                "name": "Endocrinology, Diabetes & Metabolism",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.444Z",
+                "_id": "5bdb21046f04618fc5b9bece",
+                "name": "Family Medicine",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.444Z",
+                "_id": "5bdb21046f04618fc5b9becf",
+                "name": "Gastroenterology",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.444Z",
+                "_id": "5bdb21046f04618fc5b9bed1",
+                "name": "Hematology",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.444Z",
+                "_id": "5bdb21046f04618fc5b9bed2",
+                "name": "Hospice & Palliative Medicine",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.444Z",
+                "_id": "5bdb21046f04618fc5b9bed3",
+                "name": "Infectious Disease",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.444Z",
+                "_id": "5bdb21046f04618fc5b9bed0",
+                "name": "Internal Medicine",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.444Z",
+                "_id": "5bdb21046f04618fc5b9bed4",
+                "name": "Nephrology",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.444Z",
+                "_id": "5bdb21046f04618fc5b9bed5",
+                "name": "Neurology",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.444Z",
+                "_id": "5bdb21046f04618fc5b9bed6",
+                "name": "Neurosurgery",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.444Z",
+                "_id": "5bdb21046f04618fc5b9bed7",
+                "name": "OBGYN",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.445Z",
+                "_id": "5bdb21046f04618fc5b9bed8",
+                "name": "Occupational & Environmental Medicine",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.445Z",
+                "_id": "5bdb21046f04618fc5b9bed9",
+                "name": "Oncology",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.445Z",
+                "_id": "5bdb21046f04618fc5b9beda",
+                "name": "Ophthalmology",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.445Z",
+                "_id": "5bdb21046f04618fc5b9bedb",
+                "name": "Optometry",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.445Z",
+                "_id": "5bdb21046f04618fc5b9bedc",
+                "name": "Orthopaedic Surgery",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.445Z",
+                "_id": "5bdb21046f04618fc5b9bedd",
+                "name": "Otolaryngology",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.445Z",
+                "_id": "5bdb21046f04618fc5b9bede",
+                "name": "Pathology",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.445Z",
+                "_id": "5bdb21046f04618fc5b9bedf",
+                "name": "Pediatrics",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.445Z",
+                "_id": "5bdb21046f04618fc5b9bee1",
+                "name": "Psychiatry",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.445Z",
+                "_id": "5bdb21046f04618fc5b9bee0",
+                "name": "Pulmonary Disease",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.445Z",
+                "_id": "5bdb21046f04618fc5b9bee2",
+                "name": "Radiation Oncology",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.447Z",
+                "_id": "5bdb21046f04618fc5b9bee3",
+                "name": "Radiology",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.447Z",
+                "_id": "5bdb21046f04618fc5b9bee4",
+                "name": "Rheumatology",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.447Z",
+                "_id": "5bdb21046f04618fc5b9bee5",
+                "name": "Sleep Medicine",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.447Z",
+                "_id": "5bdb21046f04618fc5b9bee6",
+                "name": "Sports Medicine",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.447Z",
+                "_id": "5bdb21046f04618fc5b9bee7",
+                "name": "Surgery",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.447Z",
+                "_id": "5bdb21046f04618fc5b9bee8",
+                "name": "Transplant Hepatology",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            },
+            {
+                "updatedAt": "2018-11-13T02:25:40.447Z",
+                "_id": "5bdb21046f04618fc5b9bee9",
+                "name": "Urology",
+                "createdBy": -1,
+                "createdAt": "2018-11-01T15:51:32.012Z"
+            }
+        ],
+        "size": 40
+    },
+    "providerTypes": {
+        "items": [
+            "MD",
+            "DO",
+            "DPM",
+            "PA",
+            "ARNP",
+            "NP"
+        ],
+        "size": 6
+    },
+    "states": [
+        {
+            "id": 3,
+            "code": "AL",
+            "name": "Alabama ",
+            "href": "/states/3"
+        },
+        {
+            "id": 29,
+            "code": "AK",
+            "name": "Alaska",
+            "href": "/states/29"
+        },
+        {
+            "id": 4,
+            "code": "AZ",
+            "name": "Arizona",
+            "href": "/states/4"
+        },
+        {
+            "id": 16,
+            "code": "AR",
+            "name": "Arkansas",
+            "href": "/states/16"
+        },
+        {
+            "id": 30,
+            "code": "BC",
+            "name": "British Columbia",
+            "href": "/states/30"
+        },
+        {
+            "id": 9,
+            "code": "CA",
+            "name": "California",
+            "href": "/states/9"
+        },
+        {
+            "id": 56,
+            "code": "CERT",
+            "name": "Certifications",
+            "href": "/states/56"
+        },
+        {
+            "id": 11,
+            "code": "CO",
+            "name": "Colorado",
+            "href": "/states/11"
+        },
+        {
+            "id": 31,
+            "code": "CT",
+            "name": "Connecticut",
+            "href": "/states/31"
+        },
+        {
+            "id": 17,
+            "code": "DE",
+            "name": "Delaware",
+            "href": "/states/17"
+        },
+        {
+            "id": 2,
+            "code": "DC",
+            "name": "District of Columbia",
+            "href": "/states/2"
+        },
+        {
+            "id": 1,
+            "code": "FL",
+            "name": "Florida",
+            "href": "/states/1"
+        },
+        {
+            "id": 32,
+            "code": "GA",
+            "name": "Georgia",
+            "href": "/states/32"
+        },
+        {
+            "id": 57,
+            "code": "GU",
+            "name": "Guam",
+            "href": "/states/57"
+        },
+        {
+            "id": 33,
+            "code": "HI",
+            "name": "Hawaii",
+            "href": "/states/33"
+        },
+        {
+            "id": 18,
+            "code": "ID",
+            "name": "Idaho",
+            "href": "/states/18"
+        },
+        {
+            "id": 10,
+            "code": "IL",
+            "name": "Illinois",
+            "href": "/states/10"
+        },
+        {
+            "id": 12,
+            "code": "IN",
+            "name": "Indiana",
+            "href": "/states/12"
+        },
+        {
+            "id": 34,
+            "code": "IA",
+            "name": "Iowa",
+            "href": "/states/34"
+        },
+        {
+            "id": 35,
+            "code": "KS",
+            "name": "Kansas",
+            "href": "/states/35"
+        },
+        {
+            "id": 19,
+            "code": "KY",
+            "name": "Kentucky",
+            "href": "/states/19"
+        },
+        {
+            "id": 36,
+            "code": "LA",
+            "name": "Louisiana",
+            "href": "/states/36"
+        },
+        {
+            "id": 20,
+            "code": "ME",
+            "name": "Maine",
+            "href": "/states/20"
+        },
+        {
+            "id": 58,
+            "code": "MP",
+            "name": "Mariana Islands",
+            "href": "/states/58"
+        },
+        {
+            "id": 37,
+            "code": "MD",
+            "name": "Maryland",
+            "href": "/states/37"
+        },
+        {
+            "id": 38,
+            "code": "MA",
+            "name": "Massachusetts",
+            "href": "/states/38"
+        },
+        {
+            "id": 39,
+            "code": "MI",
+            "name": "Michigan",
+            "href": "/states/39"
+        },
+        {
+            "id": 40,
+            "code": "MN",
+            "name": "Minnesota",
+            "href": "/states/40"
+        },
+        {
+            "id": 41,
+            "code": "MS",
+            "name": "Mississippi",
+            "href": "/states/41"
+        },
+        {
+            "id": 15,
+            "code": "MO",
+            "name": "Missouri",
+            "href": "/states/15"
+        },
+        {
+            "id": 42,
+            "code": "MT",
+            "name": "Montana",
+            "href": "/states/42"
+        },
+        {
+            "id": 21,
+            "code": "NE",
+            "name": "Nebraska",
+            "href": "/states/21"
+        },
+        {
+            "id": 43,
+            "code": "NV",
+            "name": "Nevada",
+            "href": "/states/43"
+        },
+        {
+            "id": 22,
+            "code": "NH",
+            "name": "New Hampshire",
+            "href": "/states/22"
+        },
+        {
+            "id": 44,
+            "code": "NJ",
+            "name": "New Jersey",
+            "href": "/states/44"
+        },
+        {
+            "id": 28,
+            "code": "NM",
+            "name": "New Mexico",
+            "href": "/states/28"
+        },
+        {
+            "id": 13,
+            "code": "NY",
+            "name": "New York",
+            "href": "/states/13"
+        },
+        {
+            "id": 23,
+            "code": "NC",
+            "name": "North Carolina",
+            "href": "/states/23"
+        },
+        {
+            "id": 45,
+            "code": "ND",
+            "name": "North Dakota",
+            "href": "/states/45"
+        },
+        {
+            "id": 7,
+            "code": "OH",
+            "name": "Ohio",
+            "href": "/states/7"
+        },
+        {
+            "id": 46,
+            "code": "OK",
+            "name": "Oklahoma",
+            "href": "/states/46"
+        },
+        {
+            "id": 47,
+            "code": "OR",
+            "name": "Oregon",
+            "href": "/states/47"
+        },
+        {
+            "id": 48,
+            "code": "PA",
+            "name": "Pennsylvania",
+            "href": "/states/48"
+        },
+        {
+            "id": 49,
+            "code": "PR",
+            "name": "Puerto Rico",
+            "href": "/states/49"
+        },
+        {
+            "id": 50,
+            "code": "QC",
+            "name": "Quebec Canada",
+            "href": "/states/50"
+        },
+        {
+            "id": 24,
+            "code": "RI",
+            "name": "Rhode Island",
+            "href": "/states/24"
+        },
+        {
+            "id": 27,
+            "code": "SC",
+            "name": "South Carolina",
+            "href": "/states/27"
+        },
+        {
+            "id": 51,
+            "code": "SD",
+            "name": "South Dakota",
+            "href": "/states/51"
+        },
+        {
+            "id": 5,
+            "code": "TN",
+            "name": "Tennessee",
+            "href": "/states/5"
+        },
+        {
+            "id": 6,
+            "code": "TX",
+            "name": "Texas",
+            "href": "/states/6"
+        },
+        {
+            "id": 52,
+            "code": "VI",
+            "name": "Us Virgin Islands",
+            "href": "/states/52"
+        },
+        {
+            "id": 25,
+            "code": "UT",
+            "name": "Utah",
+            "href": "/states/25"
+        },
+        {
+            "id": 53,
+            "code": "VT",
+            "name": "Vermont",
+            "href": "/states/53"
+        },
+        {
+            "id": 14,
+            "code": "VA",
+            "name": "Virginia",
+            "href": "/states/14"
+        },
+        {
+            "id": 54,
+            "code": "WA",
+            "name": "Washington",
+            "href": "/states/54"
+        },
+        {
+            "id": 55,
+            "code": "WV",
+            "name": "West Virginia",
+            "href": "/states/55"
+        },
+        {
+            "id": 26,
+            "code": "WI",
+            "name": "Wisconsin",
+            "href": "/states/26"
+        },
+        {
+            "id": 8,
+            "code": "WY",
+            "name": "Wyoming",
+            "href": "/states/8"
+        }
+    ]
+}
