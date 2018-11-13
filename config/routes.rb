@@ -45,5 +45,5 @@ Rails.application.routes.draw do
   post '/practiceLocations', to: 'practice_locations#save_practice_locations'
   post '/practiceLocations/:id', to: 'practice_locations#save_practice_locations'
   delete '/practiceLocations/:id', to: 'practice_locations#delete_practice_locations'
-  get 'setupData' , to: 'setup_data#setup'
+  get '/setupData' , to: 'setup_data#setup'
 end
