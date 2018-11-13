@@ -5,7 +5,6 @@ class SetupDataController < ApplicationController
   end
   
   def generate_response
-    workplaces_json = File.read("#{Rails.root}/app/mocks/setupData.json")
-    return workplaces_json
+    return File.read("#{Rails.root}/app/mocks/setupData.json")
       end
 end
