@@ -2,7 +2,7 @@
     "items": [
         {
             "archived": false,
-            "primary": false,
+            "primary": true,
             "locationPhoneExtra": "222-222-2222",
             "locationFax": "333-333-3333",
             "managerSameAsPrimary": false,
