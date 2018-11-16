@@ -1,44 +1,99 @@
 {
     "items": [
-      {
-   "_id" : "5b8159cf8d68c41fe41a9b4f",
-   "primary" : false,
-   "locationPhoneExtra" : "",
-   "locationFax" : "",
-   "managerSameAsPrimary" : false,
-   "managerName" : "2112",
-   "managerPhone" : "2121212121",
-   "correspondenceSameAsPrimary" : false,
-   "correspondenceAddressSameAsLocation" : true,
-   "correspondencePhone" : "2121212121",
-   "correspondenceFax" : "2121122121",
-   "contactSameAsPrimary" : false,
-   "contactAddressSameAsLocation" : true,
-   "contactName" : "2121",
-   "contactPhone" : "2121212121",
-   "contactFax" : "",
-   "contactEmail" : "",
-   "locationName" : "1212",
-   "locationAddress" : {
-       "address" : "2112",
-       "addressComplement" : "2112",
-       "city" : "21",
-       "state" : 4,
-       "zipCode" : "21221"
-   },
-   "locationPhone" : "1221211221",
-   "taxId" : "2112",
-   "groupNPI" : "1221",
-   "correspondenceAddress" : {
-       "address" : "21"
-   },
-   "providerTVId" : "716515e5-fcc4-47fb-afe9-5678fd32bab6",
-   "employerId" : 372,
-   "__v" : 0,
-   "archived" : false,
-   "archivedAt" : "2012-12-12T05:00:00.000Z",
-   "contactAddress" : {}
-}
+        {
+            "archived": false,
+            "primary": false,
+            "locationPhoneExtra": "222-222-2222",
+            "locationFax": "333-333-3333",
+            "managerSameAsPrimary": false,
+            "managerName": "Peter Ruiz",
+            "managerPhone": "444-444-4444",
+            "correspondenceSameAsPrimary": false,
+            "correspondenceAddressSameAsLocation": true,
+            "correspondencePhone": "555-555-5555",
+            "correspondenceFax": "666-666-6666",
+            "contactSameAsPrimary": false,
+            "contactAddressSameAsLocation": true,
+            "contactName": "Carol Diaz",
+            "contactPhone": "777-777-7777",
+            "contactFax": "888-888-8888",
+            "contactEmail": "lcz@gmail.com",
+            "_id": "5beef0fc90b352c5929d3187",
+            "contactAddress": {
+                "address": "av 82 # 28sur - 23",
+                "addressComplement": "dd",
+                "city": "Mobile",
+                "state": 3,
+                "zipCode": "1111"
+            },
+            "correspondenceAddress": {
+                "address": "calle 34 sur",
+                "addressComplement": "apt 401",
+                "city": "Mobile",
+                "state": 3,
+                "zipCode": "1111"
+            },
+            "groupNPI": "npi",
+            "locationAddress": {
+                "address": "av 82 # 28sur - 23",
+                "addressComplement": "dd",
+                "city": "Mobile",
+                "state": 3,
+                "zipCode": "1111"
+            },
+            "locationName": "Alamo Square",
+            "locationPhone": "111-111-1111",
+            "taxId": "9000002222",
+            "providerTVId": "d385ddd3-bc76-415e-b153-de5fccb07b10",
+            "__v": 0
+        },
+        {
+            "archived": false,
+            "primary": false,
+            "locationPhoneExtra": "222-222-2222",
+            "locationFax": "333-333-3333",
+            "managerSameAsPrimary": false,
+            "managerName": "Peter Ruiz",
+            "managerPhone": "444-444-4444",
+            "correspondenceSameAsPrimary": false,
+            "correspondenceAddressSameAsLocation": true,
+            "correspondencePhone": "555-555-5555",
+            "correspondenceFax": "666-666-6666",
+            "contactSameAsPrimary": false,
+            "contactAddressSameAsLocation": true,
+            "contactName": "Carol Diaz",
+            "contactPhone": "777-777-7777",
+            "contactFax": "888-888-8888",
+            "contactEmail": "lcz@gmail.com",
+            "_id": "5beef0fc90b352c5929d3187",
+            "contactAddress": {
+                "address": "av 82 # 28sur - 23",
+                "addressComplement": "dd",
+                "city": "Mobile",
+                "state": 3,
+                "zipCode": "1111"
+            },
+            "correspondenceAddress": {
+                "address": "calle 34 sur",
+                "addressComplement": "apt 401",
+                "city": "Mobile",
+                "state": 3,
+                "zipCode": "1111"
+            },
+            "groupNPI": "npi",
+            "locationAddress": {
+                "address": "av 82 # 28sur - 23",
+                "addressComplement": "dd",
+                "city": "Mobile",
+                "state": 3,
+                "zipCode": "1111"
+            },
+            "locationName": "Williamsburg",
+            "locationPhone": "111-111-1111",
+            "taxId": "9000002222",
+            "providerTVId": "d385ddd3-bc76-415e-b153-de5fccb07b10",
+            "__v": 0
+        }
 ],
     "size": 1,
     "offset": "",
