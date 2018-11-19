@@ -1,0 +1,35 @@
+{
+    "items": [
+        {
+            "archived": false,
+            "documents": [
+                {
+                    "name": "pdf-sample (9) (2).pdf",
+                    "type": "application/pdf",
+                    "size": 259,
+                    "blob_id": "ed612fea-fc8b-4d4d-b686-d1b27c429b12"
+                }
+            ],
+            "fifthPathway": false,
+            "_id": "5bf296e980188f95659a5600",
+            "medicalEducationType": "FELLOWSHIP",
+            "certificateNumber": "",
+            "issueDate": null,
+            "providerTVId": "d385ddd3-bc76-415e-b153-de5fccb07b10",
+            "employerId": 372,
+            "degree": "DO",
+            "specialty": "5b68b7a264455a0fa323fab0",
+            "email": "",
+            "endDate": "2018-08-30T05:00:00.000Z",
+            "fax": "",
+            "institutionName": "22",
+            "phone": "",
+            "programDirectorName": "",
+            "startDate": "2018-08-20T05:00:00.000Z",
+            "archivedAt": "2018-11-06T22:47:54.328Z"
+        }
+    ],
+    "size": 1,
+    "offset": "",
+    "limit": ""
+}
