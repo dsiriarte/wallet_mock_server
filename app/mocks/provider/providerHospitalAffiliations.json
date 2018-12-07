@@ -17,8 +17,8 @@
          "phone":"525 2525",
          "specialty":"5bc7624b722db8226d124292",
          "staffStatus":"ASSOCIATE",
-         "startDate":"12-05-2018",
-         "endDate":"12-06-2018",
+         "startDate":"2018-12-05T00:00:00.000Z",
+         "endDate":"2018-12-06T00:00:00.000Z",
          "providerTVId":"d385ddd3-bc76-415e-b153-de5fccb07b10",
          "__v":0
       }
