@@ -1,23 +1,24 @@
 {  
    "items":[  
       {  
-         "affiliationStatus":true,
+         "affiliationStatus":false,
          "_id":"5c09b384b5e25d4138feacf3",
-         "contactName":"Hospital 1",
+         "contactName":"User",
          "email":"user@condorlabs.io",
-         "facilityName":"gh",
+         "facilityName":"Hospital 1",
          "fax":"454-545-4545",
          "hospitalAddress":{  
             "address":"Car 525 25",
-            "addressComplement":"h",
-            "city":"Miami",
+            "addressComplement":"",
+            "city":"Mobile",
             "state":3,
             "zipCode":"33134"
          },
          "phone":"525 2525",
          "specialty":"5bc7624b722db8226d124292",
-         "staffStatus":"Void",
+         "staffStatus":"ASSOCIATE",
          "startDate":"12-05-2018",
+         "endDate":"12-06-2018",
          "providerTVId":"d385ddd3-bc76-415e-b153-de5fccb07b10",
          "__v":0
       }
