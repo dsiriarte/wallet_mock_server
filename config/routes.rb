@@ -51,4 +51,6 @@ Rails.application.routes.draw do
   post '/educations/:id', to: 'educations#save_educations'
   delete '/educations/:id', to: 'educations#delete_educations'
   get '/hospitalAffiliations' , to: 'hospital_affiliations#get_hospital_affiliations'
+  post '/hospitalAffiliations', to: 'hospital_affiliations#save_hospital_affiliation'
+  post '/hospitalAffiliations/:id', to: 'hospital_affiliations#save_hospital_affiliation'
 end
