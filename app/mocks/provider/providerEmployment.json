@@ -1,0 +1,73 @@
+{
+    "items": [
+        {
+            "isCurrentWorkHere": true,
+            "_id": "5c141cf63f95907be02b3ee3",
+            "name": "Genesis Sanguino",
+            "phone": "123-456-7890",
+            "contactName": "Oscar Gallon",
+            "contactPhone": "123-456-7890",
+            "contactEmail": "o@gmail.com",
+            "startDate": "2018-12-14T05:00:00.000Z",
+            "employmentAddress": {
+                "addressComplement": "",
+                "state": 1,
+                "zipCode": "33134",
+                "city": "Miami",
+                "address": "Main st. 123098123"
+            },
+            "title": "Mrs.",
+            "providerTVId": "7c4518fc-3502-4508-97bf-ad28fe1bf9b2",
+            "__v": 0
+        },
+        {
+            "isCurrentWorkHere": false,
+            "_id": "5c141e503f95907be02b3ee9",
+            "lastDate": "2017-10-14T04:00:00.000Z",
+            "name": "Gsk2",
+            "phone": "123-456-7890",
+            "contactName": "Luis Goyes",
+            "contactPhone": "123-456-7890",
+            "contactEmail": "sorolin@gmail.com",
+            "startDate": "2015-09-10T04:00:00.000Z",
+            "fax": "123-456-7890",
+            "reasonForLeaving": "I needed to go tho",
+            "employmentAddress": {
+                "addressComplement": "Apt 999",
+                "state": 1,
+                "zipCode": "33134",
+                "city": "Miami",
+                "address": "Main st 7777"
+            },
+            "title": "MM",
+            "providerTVId": "7c4518fc-3502-4508-97bf-ad28fe1bf9b2",
+            "__v": 0
+        },
+        {
+            "isCurrentWorkHere": false,
+            "_id": "5c151e7b3f95907be02b3ef3",
+            "name": "Employer",
+            "startDate": "2018-02-15T05:00:00.000Z",
+            "contactPhone": "123-456-7890",
+            "contactEmail": "j@gmail.com",
+            "contactName": "Juan",
+            "lastDate": "2018-12-15T05:00:00.000Z",
+            "phone": "123-456-7890",
+            "title": "Title:",
+            "reasonForLeaving": "Adadasd",
+            "fax": "123-456-7890",
+            "employmentAddress": {
+                "addressComplement": "123123",
+                "state": 1,
+                "zipCode": "33134",
+                "city": "Miami",
+                "address": "Main "
+            },
+            "providerTVId": "7c4518fc-3502-4508-97bf-ad28fe1bf9b2",
+            "__v": 0
+        }
+    ],
+    "size": 3,
+    "offset": "",
+    "limit": ""
+}
