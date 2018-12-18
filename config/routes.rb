@@ -53,4 +53,5 @@ Rails.application.routes.draw do
   get '/hospitalAffiliations' , to: 'hospital_affiliations#get_hospital_affiliations'
   post '/hospitalAffiliations', to: 'hospital_affiliations#save_hospital_affiliation'
   post '/hospitalAffiliations/:id', to: 'hospital_affiliations#save_hospital_affiliation'
+  get '/employment' , to: 'employment#get_employment'
 end
