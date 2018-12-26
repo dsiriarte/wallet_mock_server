@@ -54,4 +54,9 @@ Rails.application.routes.draw do
   post '/hospitalAffiliations', to: 'hospital_affiliations#save_hospital_affiliation'
   post '/hospitalAffiliations/:id', to: 'hospital_affiliations#save_hospital_affiliation'
   get '/employment' , to: 'employment#get_employment'
+  post '/employment', to: 'employment#save_employment'
+  post '/employment/:id', to: 'employment#save_employment'
+  get '/peerReferences' , to: 'peer_reference#get_peer_reference'
+  post '/peerReferences', to: 'peer_reference#save_peer_reference'
+  post '/peerReferences/:id', to: 'peer_reference#save_peer_reference'
 end

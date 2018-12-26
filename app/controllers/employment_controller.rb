@@ -10,4 +10,11 @@ class EmploymentController < ApplicationController
     return workplaces_json
   end
 
+  def save_employment
+    render json: {
+    status: "SuccessSubmission",
+    message: "The submission was received, a notification will be sent when it's completed"
+  }, status: :ok
+  end
+
 end
