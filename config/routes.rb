@@ -59,7 +59,7 @@ Rails.application.routes.draw do
   get '/peerReferences' , to: 'peer_reference#get_peer_reference'
   post '/peerReferences', to: 'peer_reference#save_peer_reference'
   post '/peerReferences/:id', to: 'peer_reference#save_peer_reference'
-  get '/alternateCoverage' , to: 'alternate_coverage#get_alternate'
-  post '/alternateCoverage', to: 'alternate_coverage#save_alternate'
-  post '/alternateCoverage/:id', to: 'alternate_coverage#save_alternate'
+  get '/alternateCoverage' , to: 'alternate#get_alternate'
+  post '/alternateCoverage', to: 'alternate#save_alternate'
+  post '/alternateCoverage/:id', to: 'alternate#save_alternate'
 end
