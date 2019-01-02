@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "currentPolicy": true,
+            "exclusions": false,
+            "documentation": [],
+            "_id": "5c2d368ba5af3d0a3d5c49ed",
+            "address": {
+                "address": "bb",
+                "addressComplement": "bb",
+                "city": "Mobile",
+                "state": 3,
+                "zipCode": "850505"
+            },
+            "agentName": " t",
+            "annualAggregateAmount": 5,
+            "carrierName": "I v",
+            "coverageType": "CLAIMS_MADE",
+            "effectiveDate": "2019-01-02T05:00:00.000Z",
+            "email": "mobile.team@cebroker.com",
+            "expirationDate": "2019-01-02T05:00:00.000Z",
+            "fax": "",
+            "perIncidentAmount": 6666,
+            "phone": "666-666-6666",
+            "policyNumber": "b",
+            "retroactiveDate": "2019-01-02T05:00:00.000Z",
+            "providerTVId": "d385ddd3-bc76-415e-b153-de5fccb07b10",
+            "__v": 0
+        }
+    ],
+    "size": 1,
+    "offset": "",
+    "limit": ""
+}

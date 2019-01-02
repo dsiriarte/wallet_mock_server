@@ -62,4 +62,10 @@ Rails.application.routes.draw do
   get '/alternateCoverage' , to: 'alternate#get_alternate'
   post '/alternateCoverage', to: 'alternate#save_alternate'
   post '/alternateCoverage/:id', to: 'alternate#save_alternate'
+  get '/malpracticeInsurance' , to: 'malpractice_insurance#get_insurance'
+  post '/malpracticeInsurance', to: 'malpractice_insurance#save_insurance'
+  post '/malpracticeInsurance/:id', to: 'malpractice_insurance#save_insurance'
+  get '/sponsoringPhysicians' , to: 'sponsoring#get_sponsoring'
+  post '/sponsoringPhysicians', to: 'sponsoring#save_sponsoring'
+  post '/sponsoringPhysicians/:id', to: 'sponsoring#delete_sponsoring'
 end

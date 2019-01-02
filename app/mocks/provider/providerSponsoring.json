@@ -1,0 +1,25 @@
+
+{
+    "items": [
+      {
+        "_id": "5c2d1795a5af3d0a3d5c49d5",
+        "specialty": "5bdb21046f04618fc5b9bec6",
+        "phone": "904-222-2222",
+        "name": "Michael Smith",
+        "expirationDate": "2021-01-02T00:00:00.000Z",
+        "address": {
+          "addressComplement": "",
+          "state": 1,
+          "zipCode": "12345",
+          "city": "Jacksonville",
+          "address": "12345 happy"
+        },
+        "licenseNumber": "ME123345",
+        "providerTVId": "d385ddd3-bc76-415e-b153-de5fccb07b10",
+        "__v": 0
+      }
+    ],
+    "size": 1,
+    "offset": "",
+    "limit": ""
+   }
