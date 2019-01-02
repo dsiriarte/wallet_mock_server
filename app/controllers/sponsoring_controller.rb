@@ -1,3 +1,4 @@
+
 class SponsoringController < ApplicationController
     before_action :authenticate!, only: [:get_inbox_items]
   
