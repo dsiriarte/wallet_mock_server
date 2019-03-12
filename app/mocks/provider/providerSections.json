@@ -1,0 +1,174 @@
+{
+    "credentialsStatus": {
+        "health": "FILLED",
+        "demographics": "FILLED",
+        "practice_locations": "FILLED",
+        "medical_license": "FILLED",
+        "deacds_registration": "FILLED",
+        "board_certifications": "FILLED",
+        "education": "FILLED",
+        "employment_history": "EMPTY",
+        "hospital_affiliation": "FILLED",
+        "national_certificate": "EMPTY",
+        "malpractice_insurance": "EMPTY",
+        "malpractice_claims": "FILLED",
+        "peer_reference": "FILLED",
+        "military_services": "FILLED",
+        "alternate_coverage": "EMPTY",
+        "membership_dues": "EMPTY",
+        "sponsoring_physician": "EMPTY"
+    },
+    "hasMalpracticeClaims": "YES",
+    "hasMilitaryServices": "YES",
+    "_id": "5c5310e384d0f6945a5d83c6",
+    "providerTVId": "7c4518fc-3502-4508-97bf-ad28fe1bf9b2",
+    "employers": [
+        {
+            "sections": {
+                "demographics": {
+                    "completedChecklistFields": 0,
+                    "mspMarkCompleted": false,
+                    "markCompletedBy": "",
+                    "_id": "5c4f2a9324e57a662c360528",
+                    "mpsMarkCompleted": false
+                },
+                "health": {
+                    "completedChecklistFields": 0,
+                    "mspMarkCompleted": false,
+                    "markCompletedBy": "",
+                    "_id": "5c4f2a9324e57a662c360529",
+                    "mpsMarkCompleted": false
+                },
+                "practice_locations": {
+                    "completedChecklistFields": 0,
+                    "mspMarkCompleted": false,
+                    "markCompletedBy": "",
+                    "_id": "5c4f2a9324e57a662c36052a",
+                    "mpsMarkCompleted": false
+                },
+                "medical_license": {
+                    "completedChecklistFields": 0,
+                    "mspMarkCompleted": false,
+                    "markCompletedBy": "",
+                    "_id": "5c4f2a9324e57a662c36052b",
+                    "mpsMarkCompleted": false
+                },
+                "deacds_registration": {
+                    "completedChecklistFields": 0,
+                    "mspMarkCompleted": false,
+                    "markCompletedBy": "",
+                    "_id": "5c4f2a9324e57a662c36052c",
+                    "mpsMarkCompleted": false
+                },
+                "board_certifications": {
+                    "completedChecklistFields": 0,
+                    "mspMarkCompleted": false,
+                    "markCompletedBy": "",
+                    "_id": "5c4f2a9324e57a662c36052d",
+                    "mpsMarkCompleted": false
+                },
+                "education": {
+                    "completedChecklistFields": 0,
+                    "mspMarkCompleted": false,
+                    "markCompletedBy": "",
+                    "_id": "5c4f2a9324e57a662c36052e",
+                    "mpsMarkCompleted": false
+                },
+                "employment_history": {
+                    "completedChecklistFields": 0,
+                    "mspMarkCompleted": false,
+                    "markCompletedBy": "",
+                    "_id": "5c4f2a9324e57a662c36052f",
+                    "mpsMarkCompleted": false
+                },
+                "hospital_affiliation": {
+                    "completedChecklistFields": 0,
+                    "mspMarkCompleted": false,
+                    "markCompletedBy": "",
+                    "_id": "5c4f2a9324e57a662c360530",
+                    "mpsMarkCompleted": false
+                },
+                "national_certificate": {
+                    "completedChecklistFields": 0,
+                    "mspMarkCompleted": false,
+                    "markCompletedBy": "",
+                    "_id": "5c4f2a9324e57a662c360531",
+                    "mpsMarkCompleted": false
+                },
+                "malpractice_insurance": {
+                    "completedChecklistFields": 0,
+                    "mspMarkCompleted": false,
+                    "markCompletedBy": "",
+                    "_id": "5c4f2a9324e57a662c360532",
+                    "mpsMarkCompleted": false
+                },
+                "malpractice_claims": {
+                    "completedChecklistFields": 0,
+                    "mspMarkCompleted": false,
+                    "markCompletedBy": "",
+                    "_id": "5c4f2a9324e57a662c360533",
+                    "mpsMarkCompleted": false
+                },
+                "peer_reference": {
+                    "completedChecklistFields": 0,
+                    "mspMarkCompleted": false,
+                    "markCompletedBy": "",
+                    "_id": "5c4f2a9324e57a662c360534",
+                    "mpsMarkCompleted": false
+                },
+                "military_services": {
+                    "completedChecklistFields": 0,
+                    "mspMarkCompleted": false,
+                    "markCompletedBy": "",
+                    "_id": "5c4f2a9324e57a662c360535",
+                    "mpsMarkCompleted": false
+                },
+                "alternate_coverage": {
+                    "completedChecklistFields": 0,
+                    "mspMarkCompleted": false,
+                    "markCompletedBy": "",
+                    "_id": "5c4f2a9324e57a662c360536",
+                    "mpsMarkCompleted": false
+                },
+                "membership_dues": {
+                    "completedChecklistFields": 0,
+                    "mspMarkCompleted": false,
+                    "markCompletedBy": "",
+                    "_id": "5c4f2a9324e57a662c360537",
+                    "mpsMarkCompleted": false
+                },
+                "sponsoring_physician": {
+                    "completedChecklistFields": 0,
+                    "mspMarkCompleted": false,
+                    "markCompletedBy": "",
+                    "_id": "5c4f2a9324e57a662c360538",
+                    "mpsMarkCompleted": false
+                }
+            },
+            "attestationSubmited": false,
+            "_id": "5c4f2a9324e57a662c36053a",
+            "employerId": 316
+        }
+    ],
+    "__v": 0,
+    "credentialStatus": {
+        "demographics": "EMPTY",
+        "health": "EMPTY",
+        "practice_locations": "EMPTY",
+        "medical_license": "EMPTY",
+        "deacds_registration": "EMPTY",
+        "board_certifications": "EMPTY",
+        "education": "EMPTY",
+        "employment_history": "EMPTY",
+        "hospital_affiliation": "EMPTY",
+        "national_certificate": "EMPTY",
+        "malpractice_insurance": "EMPTY",
+        "malpractice_claims": "EMPTY",
+        "peer_reference": "EMPTY",
+        "military_services": "EMPTY",
+        "alternate_coverage": "EMPTY",
+        "membership_dues": "EMPTY",
+        "sponsoring_physician": "EMPTY"
+    },
+    "providerType": "PA"
+}

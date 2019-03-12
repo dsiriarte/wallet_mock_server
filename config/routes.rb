@@ -68,4 +68,5 @@ Rails.application.routes.draw do
   get '/sponsoringPhysicians' , to: 'sponsoring#get_sponsoring'
   post '/sponsoringPhysicians', to: 'sponsoring#save_sponsoring'
   post '/sponsoringPhysicians/:id', to: 'sponsoring#delete_sponsoring'
+  get '/providerSections' , to: 'sections#get_sections'
 end
