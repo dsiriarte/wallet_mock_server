@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "_id": "5c8c2792bf0fa667d269bb5e",
+            "employerId": 800,
+            "providerTVId": "d54efe02-e98f-4dec-8fc6-12edcf2132ec",
+            "specialtyId": "5c6ab7e58945e525ce446fad",
+            "subSpecialtyId": "5c6ab7e5453f4a25cea5be3a",
+            "privileges": [
+                {
+                    "requested": true,
+                    "granted": false,
+                    "privilegeId": "5c6ab7e5453f4a25cea5bd73"
+                },
+                {
+                    "requested": true,
+                    "granted": true,
+                    "privilegeId": "5c6ab7e5453f4a25cea5bd74"
+                }
+            ]
+        }
+    ],
+    "offset": "",
+    "limit": ""
+}
