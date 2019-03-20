@@ -1,23 +1,133 @@
 {
     "items": [
         {
-            "_id": "5c8c2792bf0fa667d269bb5e",
-            "employerId": 800,
-            "providerTVId": "d54efe02-e98f-4dec-8fc6-12edcf2132ec",
-            "specialtyId": "5c6ab7e58945e525ce446fad",
-            "subSpecialtyId": "5c6ab7e5453f4a25cea5be3a",
+            "_id": "5c82f01cf27a74798e538623",
+            "providerTVId": "7c4518fc-3502-4508-97bf-ad28fe1bf9b2",
+            "employerId": 371,
+            "specialtyId": "5b04660215b85a64b8063672",
+            "subSpecialtyId": "5c65988807ca0d1fad9ebebc",
             "privileges": [
                 {
-                    "requested": true,
+                    "requested": false,
                     "granted": false,
-                    "privilegeId": "5c6ab7e5453f4a25cea5bd73"
+                    "_id": "5c8988f73c46ad18ae39ead8",
+                    "privilegeId": "5c65988807ca0d1fad9eb9f8",
+                    "requestedAt": "2019-03-13T22:49:27.663Z"
+                },
+                {
+                    "requested": false,
+                    "granted": false,
+                    "_id": "5c8988f73c46ad18ae39ead7",
+                    "privilegeId": "5c65988807ca0d1fad9eb9f9",
+                    "requestedAt": "2019-03-13T22:49:27.663Z"
+                },
+                {
+                    "requested": false,
+                    "granted": false,
+                    "_id": "5c8988f73c46ad18ae39ead6",
+                    "privilegeId": "5c65988807ca0d1fad9eb9fa",
+                    "requestedAt": "2019-03-13T22:49:27.663Z"
+                },
+                {
+                    "requested": false,
+                    "granted": false,
+                    "_id": "5c8988f73c46ad18ae39ead5",
+                    "privilegeId": "5c65988807ca0d1fad9eb9fb",
+                    "requestedAt": "2019-03-13T22:49:27.663Z"
+                },
+                {
+                    "requested": false,
+                    "granted": false,
+                    "_id": "5c8988f73c46ad18ae39ead4",
+                    "privilegeId": "5c65988807ca0d1fad9eb9fc",
+                    "requestedAt": "2019-03-13T22:49:27.663Z"
+                },
+                {
+                    "requested": false,
+                    "granted": false,
+                    "_id": "5c8988f73c46ad18ae39ead3",
+                    "privilegeId": "5c65988807ca0d1fad9eb9fd",
+                    "requestedAt": "2019-03-13T22:49:27.663Z"
+                },
+                {
+                    "requested": false,
+                    "granted": false,
+                    "_id": "5c8988f73c46ad18ae39ead2",
+                    "privilegeId": "5c65988807ca0d1fad9eb9fe",
+                    "requestedAt": "2019-03-13T22:49:27.663Z"
+                },
+                {
+                    "requested": false,
+                    "granted": false,
+                    "_id": "5c8988f73c46ad18ae39ead1",
+                    "privilegeId": "5c65988807ca0d1fad9eb9ff",
+                    "requestedAt": "2019-03-13T22:49:27.663Z"
+                },
+                {
+                    "requested": false,
+                    "granted": false,
+                    "_id": "5c8988f73c46ad18ae39ead0",
+                    "privilegeId": "5c65988807ca0d1fad9eba00",
+                    "requestedAt": "2019-03-13T22:49:27.663Z"
+                },
+                {
+                    "requested": false,
+                    "granted": false,
+                    "_id": "5c8988f73c46ad18ae39eacf",
+                    "privilegeId": "5c65988807ca0d1fad9eba01",
+                    "requestedAt": "2019-03-13T22:49:27.663Z"
+                },
+                {
+                    "requested": false,
+                    "granted": false,
+                    "_id": "5c8988f73c46ad18ae39eace",
+                    "privilegeId": "5c65988807ca0d1fad9eba02",
+                    "requestedAt": "2019-03-13T22:49:27.663Z"
+                },
+                {
+                    "requested": false,
+                    "granted": false,
+                    "_id": "5c8988f73c46ad18ae39eacd",
+                    "privilegeId": "5c65988807ca0d1fad9eba03",
+                    "requestedAt": "2019-03-13T22:49:27.663Z"
+                },
+                {
+                    "requested": false,
+                    "granted": false,
+                    "_id": "5c8988f73c46ad18ae39eacc",
+                    "privilegeId": "5c65988807ca0d1fad9eba04",
+                    "requestedAt": "2019-03-13T22:49:27.663Z"
+                },
+                {
+                    "requested": false,
+                    "granted": false,
+                    "_id": "5c8988f73c46ad18ae39eacb",
+                    "privilegeId": "5c65988807ca0d1fad9eba05",
+                    "requestedAt": "2019-03-13T22:49:27.663Z"
+                },
+                {
+                    "requested": false,
+                    "granted": false,
+                    "_id": "5c8988f73c46ad18ae39eaca",
+                    "privilegeId": "5c65988807ca0d1fad9eba06",
+                    "requestedAt": "2019-03-13T22:49:27.663Z"
+                },
+                {
+                    "requested": false,
+                    "granted": false,
+                    "_id": "5c8988f73c46ad18ae39eac9",
+                    "privilegeId": "5c65988807ca0d1fad9eba07",
+                    "requestedAt": "2019-03-13T22:49:27.663Z"
                 },
                 {
                     "requested": true,
-                    "granted": true,
-                    "privilegeId": "5c6ab7e5453f4a25cea5bd74"
+                    "granted": false,
+                    "_id": "5c8988f73c46ad18ae39eac8",
+                    "privilegeId": "5c65988807ca0d1fad9eba0c",
+                    "requestedAt": "2019-03-13T22:49:27.663Z"
                 }
-            ]
+            ],
+            "__v": 2
         }
     ],
     "offset": "",
