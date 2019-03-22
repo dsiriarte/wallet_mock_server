@@ -15,9 +15,9 @@ class DevicesController < ApplicationController
   private
   def generate_response
     {
-      id: 123,
+      platform: params[:platform],
       device: params[:device],
-      userId: 123
+      accountId: 123
     }
   end
   def generate_empty_response
