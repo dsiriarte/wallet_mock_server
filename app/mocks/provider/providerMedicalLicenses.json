@@ -1,0 +1,24 @@
+[
+    {
+      "licenseId": 2642987,
+      "firstName": "SHAUNA",
+      "middleName": "KAYLYNN",
+      "lastName": "JONES",
+      "licenseStatus": "ACTIVE",
+      "licenseType": "LICENSE",
+      "licenseNumber": "008216",
+      "state": "Georgia",
+      "stateId": 32,
+      "professionId": 1872,
+      "boardId": 407,
+      "boardName": "Georgia Composite Medical Board",
+      "professionName": "Respiratory Care Professional",
+      "disciplined": 0,
+      "issueDate": "04-05-2011",
+      "expirationDate": "07-31-2016",
+      "label": "TAKE_ACTION",
+      "documents": [],
+      "_id": "5c5db49e079a541be1f0d02e",
+      "primary": true
+    }
+  ]
