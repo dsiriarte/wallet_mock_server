@@ -70,6 +70,7 @@ Rails.application.routes.draw do
   post '/sponsoringPhysicians/:id', to: 'sponsoring#delete_sponsoring'
   get '/providerSections' , to: 'sections#get_sections'
   get '/providerPrivileges' , to: 'delineation_of_privileges#get_privileges'
+  get '/nationalCertifications' , to: 'national_certificate#get_nationalCertificates'
   get '/medicalLicenses', to: 'medical_license#get_medicalLicenses'
   post 'medicalLicenses',  to: 'medical_license#save_medicalLicense'
 end
